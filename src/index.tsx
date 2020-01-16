@@ -65,7 +65,7 @@ const MyApp = props => {
           <Text
             style={{ alignSelf: "center", fontSize: 20, fontWeight: "bold" }}
           >
-            Guess
+            Guess, dude
           </Text>
         )}
         {showAnswer ? (
