@@ -1,19 +1,14 @@
-  
-import { combineReducers } from 'redux';
+import * as TYPES from "../types";
+import { combineReducers } from "redux";
 //Reducers
-import { firebaseReducer } from 'react-redux-firebase';
-import { firestoreReducer } from 'redux-firestore'
-import uiReducer from './uiReducer';
-import authReducer from './authReducer';
-import blogReducer from './blogReducer'
+import { firebaseReducer } from "react-redux-firebase";
+import { firestoreReducer } from "redux-firestore";
+import cardReducer from "./cardsReducer";
 
 const rootReducer = combineReducers({
-    firebase: firebaseReducer,
-    firestore: firestoreReducer,
-    ui: uiReducer,
-    auth: authReducer,
-    blog: blogReducer
-})
-
+  firebase: firebaseReducer,
+  firestore: firestoreReducer,
+  cards: cardReducer
+});
 
 export default rootReducer;

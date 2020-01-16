@@ -1,6 +1,17 @@
+// Sign In
 
-/////// UI Section
+export const SIGNIN = "SIGNIN";
+export const SIGNIN_SUCCESS = "SIGNIN_SUCCESS";
+export const SIGNIN_FAIL = "SIGNIN_FAIL";
 
-export const TOGGLE_DELETE_ACCOUNT = 'TOGGLE_DELETE_ACCOUNT';
+// Sign Up
 
-/////// UI Section END
+export const SIGNUP = "SIGNUP";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+
+/////// Blog Section
+
+export const GET_CARDS = "GET_CARDS";
+export const GET_CARDS_SUCCESS = "GET_CARDS_SUCCESS";
+export const GET_CARDS_FAIL = "GET_CARDS_FAIL";

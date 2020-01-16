@@ -7,17 +7,23 @@ import {
   Alert,
   Image,
   TouchableOpacity,
-  Dimensions
+  Dimensions,
+  TextInput
 } from "react-native";
+import Header from "./screens/Header/Header";
+import { getCards } from "./store/actions/cardsActions";
+import { connect } from "react-redux";
+
 import blueRanger from "./assets/images/blue_ranger.png";
 import fire from "./assets/images/fire.gif";
 import stone from "./assets/images/stone.png";
 
-const MyApp = () => {
+const MyApp = props => {
   const [imageArray, setImageArray] = useState([blueRanger, fire, stone]);
   const [currentImage, setCurrentImage] = useState(blueRanger);
   const [screenHeight, setScreenHeight] = useState(300);
   const [showAnswer, setShowAnswer] = useState(false);
+  const { testing, updateText } = props;
   const updateImage = () => {
     let randomImage = Math.floor(Math.random() * imageArray.length);
     setCurrentImage(imageArray[randomImage]);
@@ -28,19 +34,15 @@ const MyApp = () => {
     console.log(width, height);
     setScreenHeight(height);
   }, []);
+  useEffect(() => console.log(testing));
+
+  const onChangeOfText = text => {
+    updateText(text);
+  };
+
   return (
     <View style={{ height: screenHeight }}>
-      <View style={styles.header}>
-        <Text
-          style={{
-            color: "#fff",
-            fontSize: 20,
-            fontWeight: "bold"
-          }}
-        >
-          REMI
-        </Text>
-      </View>
+      <Header />
       <View
         style={{
           height: screenHeight - 120,
@@ -118,4 +120,10 @@ const styles = StyleSheet.create({
   }
 });
 
-export default MyApp;
+const mapStateToProps = ({ testing }) => ({
+  testing
+});
+
+const mapDispatchToProps = { getCards };
+
+export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
