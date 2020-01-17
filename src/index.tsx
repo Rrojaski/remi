@@ -23,7 +23,7 @@ const MyApp = props => {
   const [currentImage, setCurrentImage] = useState(blueRanger);
   const [screenHeight, setScreenHeight] = useState(300);
   const [showAnswer, setShowAnswer] = useState(false);
-  const { testing, updateText } = props;
+  const { getCards, cards } = props;
   const updateImage = () => {
     let randomImage = Math.floor(Math.random() * imageArray.length);
     setCurrentImage(imageArray[randomImage]);
@@ -34,12 +34,16 @@ const MyApp = props => {
     console.log(width, height);
     setScreenHeight(height);
   }, []);
-  useEffect(() => console.log(testing));
+  useEffect(() => getCards(), []);
 
-  const onChangeOfText = text => {
-    updateText(text);
-  };
-
+  useEffect(() => {
+    if (cards[0]) {
+      setCharacter(cards[0].character);
+      setDefinition(cards[0].definition);
+    }
+  }, [cards]);
+  const [character, setCharacter] = useState("loading...");
+  const [definition, setDefinition] = useState("loading...");
   return (
     <View style={{ height: screenHeight }}>
       <Header />
@@ -57,15 +61,23 @@ const MyApp = props => {
         </View>
         {showAnswer ? (
           <Text
-            style={{ alignSelf: "center", fontSize: 20, fontWeight: "bold" }}
+            style={{
+              alignSelf: "center",
+              fontSize: "3rem",
+              fontWeight: "bold"
+            }}
           >
-            Comida
+            {definition}
           </Text>
         ) : (
           <Text
-            style={{ alignSelf: "center", fontSize: 20, fontWeight: "bold" }}
+            style={{
+              alignSelf: "center",
+              fontSize: "3rem",
+              fontWeight: "bold"
+            }}
           >
-            Guess, dude
+            {character}
           </Text>
         )}
         {showAnswer ? (
@@ -120,8 +132,8 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapStateToProps = ({ testing }) => ({
-  testing
+const mapStateToProps = ({ cards }) => ({
+  cards: cards.cards
 });
 
 const mapDispatchToProps = { getCards };

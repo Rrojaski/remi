@@ -19,7 +19,7 @@ try {
   firebase.firestore();
   console.log("Firebase Initialized");
 } catch (err) {
-  console.log("Error Initializing Firebase");
+  console.log("Error Initializing Firebase", err);
 }
 
 export default firebase;
