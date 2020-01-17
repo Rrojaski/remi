@@ -9,17 +9,17 @@ const initialState = {
 const cardReducer = (state = initialState, action) => {
   switch (action.type) {
     case TYPES.GET_CARDS:
-      return {              
+      return {
         ...state,
         loading: true
       };
-    case TYPES.GET_CARDS.SUCCESS:
+    case TYPES.GET_CARDS_SUCCESS:
       return {
         ...state,
         cards: action.payload,
         loading: false
       };
-    case TYPES.GET_CARDS.FAIL:
+    case TYPES.GET_CARDS_FAIL:
       return {
         ...state,
         error: action.payload,

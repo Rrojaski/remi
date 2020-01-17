@@ -1,4 +1,3 @@
-import * as TYPES from "../types";
 import { combineReducers } from "redux";
 //Reducers
 import { firebaseReducer } from "react-redux-firebase";
