@@ -22,3 +22,27 @@ export const getCards = () => async (
     dispatch({ type: TYPES.GET_CARDS_FAIL, payload: error });
   }
 };
+
+export const updateCard = card => async (
+  dispatch,
+  getState,
+  { getFirebase, getFirestore }
+) => {
+  const firestore = getFirestore();
+  dispatch({ type: TYPES.UPDATE_CARD });
+  try {
+    console.log(card, "updating this card");
+
+    firestore
+      .collection("cards")
+      .doc(card.id)
+      .set({
+        character: card.character,
+        definition: card.definition,
+        grade: card.grade
+      });
+    dispatch({ type: TYPES.UPDATE_CARD_SUCCESS });
+  } catch (error) {
+    dispatch({ type: TYPES.UPDATE_CARD_FAIL, payload: error });
+  }
+};

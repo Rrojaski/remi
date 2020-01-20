@@ -25,6 +25,22 @@ const cardReducer = (state = initialState, action) => {
         error: action.payload,
         loading: false
       };
+    case TYPES.UPDATE_CARD:
+      return {
+        ...state,
+        loading: true
+      };
+    case TYPES.UPDATE_CARD_SUCCESS:
+      return {
+        ...state,
+        loading: false
+      };
+    case TYPES.UPDATE_CARD_FAIL:
+      return {
+        ...state,
+        error: action.payload,
+        loading: false
+      };
     default:
       return state;
   }
