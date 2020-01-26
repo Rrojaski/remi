@@ -22,6 +22,7 @@ const MyApp = props => {
   const [currentImage, setCurrentImage] = useState(blueRanger);
   const [screenHeight, setScreenHeight] = useState(300);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [showDefinition, setShowDefinition] = useState(false);
   const [currentCard, setCurrentCard] = useState({});
   const [cardIndex, setCardIndex] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
@@ -85,6 +86,7 @@ const MyApp = props => {
     setCurrentCard(randomCard);
     searchImage(randomCard.definition);
     setShowAnswer(false);
+    setShowDefinition(false);
   };
 
   const goodClick = () => {
@@ -97,6 +99,7 @@ const MyApp = props => {
     setCurrentCard(randomCard);
     searchImage(randomCard.definition);
     setShowAnswer(false);
+    setShowDefinition(false);
   };
 
   const maybeClick = () => {
@@ -104,6 +107,7 @@ const MyApp = props => {
     setCurrentCard(randomCard);
     searchImage(randomCard.definition);
     setShowAnswer(false);
+    setShowDefinition(false);
   };
 
   return (
@@ -117,7 +121,7 @@ const MyApp = props => {
         }}
       >
         <View style={styles.container}>
-          <TouchableOpacity onPress={() =>searchImage(currentCard.definition)}>
+          <TouchableOpacity onPress={() => searchImage(currentCard.definition)}>
             <Image style={styles.image} source={currentImage} />
           </TouchableOpacity>
         </View>
@@ -126,7 +130,7 @@ const MyApp = props => {
             <Text
               style={{
                 alignSelf: "center",
-                fontSize: "3rem",
+                fontSize: "4rem",
                 fontWeight: "bold"
               }}
             >
@@ -139,20 +143,54 @@ const MyApp = props => {
                 fontWeight: "bold"
               }}
             >
+              {currentCard && currentCard.pronunciation}
+            </Text>
+            <Text
+              style={{
+                alignSelf: "center",
+                fontSize: "3rem",
+                fontWeight: "bold"
+              }}
+            >
               {currentCard && currentCard.definition}
             </Text>
           </View>
         ) : (
-          <Text
-            style={{
-              alignSelf: "center",
-              fontSize: "3rem",
-              fontWeight: "bold"
-            }}
-          >
-            {currentCard && currentCard.character}
-          </Text>
+          <View style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <Text
+              style={{
+                alignSelf: "center",
+                fontSize: "3rem",
+                fontWeight: "bold",
+                marginBottom: "5px"
+              }}
+            >
+              {currentCard && currentCard.pronunciation}
+            </Text>
+
+            {showDefinition ? (
+              <View>
+                <Text
+                  style={{
+                    alignSelf: "center",
+                    fontSize: "3rem",
+                    fontWeight: "bold"
+                  }}
+                >
+                  {currentCard && currentCard.definition}
+                </Text>
+              </View>
+            ) : (
+              <View style={{ display: "block", margin: "0 auto", width: 'max-content'}}>
+                <Button
+                  title="Definition"
+                  onPress={() => setShowDefinition(true)}
+                />
+              </View>
+            )}
+          </View>
         )}
+
         {showAnswer ? (
           <View style={styles.buttonContainer}>
             <Button color="red" title="WRONG" onPress={() => badClick()} />
