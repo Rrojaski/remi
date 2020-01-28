@@ -39,7 +39,8 @@ export const updateCard = card => async (
       .set({
         character: card.character,
         definition: card.definition,
-        grade: card.grade
+        grade: card.grade,
+        pronunciation: card.pronunciation,
       });
     dispatch({ type: TYPES.UPDATE_CARD_SUCCESS });
   } catch (error) {
