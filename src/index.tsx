@@ -15,6 +15,7 @@ import { getCards, updateCard } from "./store/actions/cardsActions";
 import { connect } from "react-redux";
 import axios from "axios";
 import blueRanger from "./assets/images/blue_ranger.png";
+import Video from "react-native-video";
 
 const MyApp = props => {
   const baseApi = "http://api.giphy.com/v1/gifs";
@@ -136,6 +137,19 @@ const MyApp = props => {
             >
               {currentCard && currentCard.character}
             </Text>
+
+            <Video
+              source={{
+                uri:
+                  "https://apifree.forvo.com/audio/1g2g2l322a1j391o3i371f3n322l1l3l2a1p3q2n273j1i3m3p3q3k1b312f2n3a2a3k1n1l2p3l2c2l1j2o2922372f1i1b2b1o381p21351j2o2o3q2a333l2d2h3g1m3g211n3n3k3h2j332o2h2h2m3l2o373n1k2o1j213n1t1t_1g233m26231m1i1n373h2p383k1h3f1o2b34223o382h1t1t"
+              }}
+              ref={ref => {
+                this.player = ref;
+              }}
+              onBuffer={this.onBuffer}
+              onError={this.videoError}
+              style={styles.backgroundVideo}
+            />
             <Text
               style={{
                 alignSelf: "center",
@@ -156,7 +170,13 @@ const MyApp = props => {
             </Text>
           </View>
         ) : (
-          <View style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+          <View
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
             <Text
               style={{
                 alignSelf: "center",
@@ -181,7 +201,13 @@ const MyApp = props => {
                 </Text>
               </View>
             ) : (
-              <View style={{ display: "block", margin: "0 auto", width: 'max-content'}}>
+              <View
+                style={{
+                  display: "block",
+                  margin: "0 auto",
+                  width: "max-content"
+                }}
+              >
                 <Button
                   title="Definition"
                   onPress={() => setShowDefinition(true)}
@@ -232,6 +258,9 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-around"
+  },
+  backgroundVideo: {
+    opacity: 0
   }
 });
 
