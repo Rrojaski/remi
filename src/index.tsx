@@ -57,9 +57,9 @@ const MyApp = props => {
 
   const randomImageIndex = arrayLength => {
     let randomNumber = Math.floor(Math.random() * arrayLength);
-    while (imageIndex === randomNumber) {
+    do {
       randomNumber = Math.floor(Math.random() * arrayLength);
-    }
+    } while (imageIndex === randomNumber);
     setImageIndex(randomNumber);
     return imageIndex;
   };
@@ -123,7 +123,10 @@ const MyApp = props => {
       >
         <View style={styles.container}>
           <TouchableOpacity onPress={() => searchImage(currentCard.definition)}>
-            <Image style={styles.image} source={{ uri: currentImage.toString() }} />
+            <Image
+              style={styles.image}
+              source={{ uri: currentImage.toString() }}
+            />
           </TouchableOpacity>
         </View>
         {showAnswer ? (
