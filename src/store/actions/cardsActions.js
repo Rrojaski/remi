@@ -31,7 +31,7 @@ export const updateCard = card => async (
   const firestore = getFirestore();
   dispatch({ type: TYPES.UPDATE_CARD });
   try {
-    console.log(card, "updating this card");
+    console.log(card, "updating this card: ", card);
 
     firestore
       .collection("cards")
@@ -40,7 +40,7 @@ export const updateCard = card => async (
         character: card.character,
         definition: card.definition,
         grade: card.grade,
-        pronunciation: card.pronunciation,
+        pronunciation: card.pronunciation
       });
     dispatch({ type: TYPES.UPDATE_CARD_SUCCESS });
   } catch (error) {
