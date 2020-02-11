@@ -10,7 +10,7 @@
     "expo": "~36.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
-    "react-native": "~0.61.4",
+    "react-native": "0.61.5",
     "react-native-gesture-handler": "~1.5.0",
     "react-native-reanimated": "~1.4.0",
     "react-native-screens": "2.0.0-alpha.12",
@@ -30,17 +30,20 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "babel-jest": "~24.9.0",
-    "jest": "~24.9.0",
+    "@babel/core": "^7.8.4",
     "jetifier": "~1.6.4",
-    "metro-react-native-babel-preset": "~0.56.0",
     "react-test-renderer": "~16.9.0",
     "@types/react": "~16.9.0",
     "@types/react-native": "~0.60.23",
     "@types/react-native-video": "",
     "babel-preset-expo": "~8.0.0",
-    "typescript": "~3.6.3"
+    "typescript": "~3.6.3",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^0.0.7",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.58.0"
   },
   "private": true
 }
