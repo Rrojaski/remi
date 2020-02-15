@@ -129,6 +129,14 @@ const MyApp = props => {
             />
           </TouchableOpacity>
         </View>
+
+
+
+
+
+
+
+        
         {showAnswer ? (
           <View>
             <Text
@@ -192,9 +200,9 @@ const MyApp = props => {
               </View>
             ) : (
               <View
-                style={{
-                  display: "block"
-                }}
+                // style={{
+                //   display: "block"
+                // }}
               >
                 <Button
                   title="Definition"
