@@ -146,7 +146,8 @@ const MyApp = props => {
                 fontWeight: "bold"
               }}
             >
-              {currentCard && currentCard.character}
+              Characters should be displayed here
+              {/* {currentCard && currentCard.character} */}
             </Text>
             <Text
               style={{
