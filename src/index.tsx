@@ -12,10 +12,10 @@ import {
 } from "react-native";
 import Header from "./screens/Header/Header";
 import { getCards, updateCard } from "./store/actions/cardsActions";
+import { getImages } from "./store/actions/imageActions";
 import { connect } from "react-redux";
 import axios from "axios";
 import blueRanger from "./assets/images/blue_ranger.png";
-import Video from "react-native-video";
 
 const MyApp = props => {
   const baseApi = "http://api.giphy.com/v1/gifs";
@@ -27,9 +27,11 @@ const MyApp = props => {
   const [currentCard, setCurrentCard] = useState({});
   const [cardIndex, setCardIndex] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
-  const { getCards, updateCard, cards } = props;
+  const { getCards, updateCard, getImages, cards, images } = props;
 
   useEffect(() => {
+    console.log("getting screen dimensions");
+
     setShowAnswer(false);
     let { width, height } = Dimensions.get("window");
     console.log(width, height);
@@ -39,10 +41,13 @@ const MyApp = props => {
   useEffect(() => getCards(), []);
 
   useEffect(() => {
+    console.log("Getting random card");
+
     if (cards[0]) {
       let randomCard = cards[randomCardIndex()];
       setCurrentCard(randomCard);
       searchImage(randomCard.definition);
+      console.log("found this card", randomCard);
     }
   }, [cards]);
 
@@ -64,17 +69,26 @@ const MyApp = props => {
     return imageIndex;
   };
 
-  const searchImage = searchTerm => {
-    axios
-      .get(
-        `${baseApi}/search?api_key=2HF9SAG5DYsve05CWbAltaYI2CSUU9o1&q=${searchTerm}`
-      )
-      .then(response => {
-        let gif =
-          response.data.data[randomImageIndex(response.data.data.length)];
-        setCurrentImage(`https://media.giphy.com/media/${gif.id}/giphy.gif`);
-      })
-      .catch(error => console.log(error.message));
+  const searchImage = async searchTerm => {
+    searchTerm = "jesus";
+    console.log(searchTerm);
+
+    await getImages(searchTerm);
+    if (images) {
+      console.log(images);
+    }
+    setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
+
+    // axios
+    //   .get(
+    //     `${baseApi}/search?api_key=2HF9SAG5DYsve05CWbAltaYI2CSUU9o1&q=${searchTerm}`
+    //   )
+    //   .then(response => {
+    //     let gif =
+    //       response.data.data[randomImageIndex(response.data.data.length)];
+    //     setCurrentImage(`https://media.giphy.com/media/${gif.id}/giphy.gif`);
+    //   })
+    //   .catch(error => console.log(error.message));
   };
 
   const badClick = () => {
@@ -130,13 +144,6 @@ const MyApp = props => {
           </TouchableOpacity>
         </View>
 
-
-
-
-
-
-
-        
         {showAnswer ? (
           <View>
             <Text
@@ -147,6 +154,7 @@ const MyApp = props => {
               }}
             >
               Characters should be displayed here
+              {currentCard.character}
               {/* {currentCard && currentCard.character} */}
             </Text>
             <Text
@@ -201,9 +209,9 @@ const MyApp = props => {
               </View>
             ) : (
               <View
-                // style={{
-                //   display: "block"
-                // }}
+              // style={{
+              //   display: "block"
+              // }}
               >
                 <Button
                   title="Definition"
@@ -261,10 +269,11 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapStateToProps = ({ cards }) => ({
-  cards: cards.cards
+const mapStateToProps = ({ cards, images }) => ({
+  cards: cards.cards,
+  images: images.images
 });
 
-const mapDispatchToProps = { getCards, updateCard };
+const mapDispatchToProps = { getCards, updateCard, getImages };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
