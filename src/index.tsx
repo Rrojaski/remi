@@ -20,7 +20,7 @@ import blueRanger from "./assets/images/blue_ranger.png";
 const MyApp = props => {
   const baseApi = "http://api.giphy.com/v1/gifs";
 
-  const [currentImage, setCurrentImage] = useState(blueRanger);
+  const [currentImage, setCurrentImage] = useState("");
   const [screenHeight, setScreenHeight] = useState(300);
   const [showAnswer, setShowAnswer] = useState(false);
   const [showDefinition, setShowDefinition] = useState(false);
@@ -38,18 +38,28 @@ const MyApp = props => {
     setScreenHeight(height);
   }, []);
 
-  useEffect(() => getCards(), []);
-
   useEffect(() => {
-    console.log("Getting random card");
+    if (images && images.length > 0) {
+      console.log("updating current image");
+      console.log(images[randomImageIndex(images.length)].urls.raw);
 
-    if (cards[0]) {
-      let randomCard = cards[randomCardIndex()];
-      setCurrentCard(randomCard);
-      searchImage(randomCard.definition);
-      console.log("found this card", randomCard);
+      setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
+      console.log("useEffect current Image", currentImage);
     }
-  }, [cards]);
+  }, [images]);
+
+  // useEffect(() => getCards(), []);
+
+  // useEffect(() => {
+  //   console.log("Getting random card");
+
+  //   if (cards[0]) {
+  //     let randomCard = cards[randomCardIndex()];
+  //     setCurrentCard(randomCard);
+  //     searchImage(randomCard.definition);
+  //     console.log("found this card", randomCard);
+  //   }
+  // }, [cards]);
 
   const randomCardIndex = () => {
     let randomNumber = Math.floor(Math.random() * cards.length);
@@ -70,14 +80,10 @@ const MyApp = props => {
   };
 
   const searchImage = async searchTerm => {
-    searchTerm = "jesus";
-    console.log(searchTerm);
-
+    searchTerm = "path";
     await getImages(searchTerm);
-    if (images) {
-      console.log(images);
-    }
-    setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
+
+    // setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
 
     // axios
     //   .get(
@@ -139,7 +145,7 @@ const MyApp = props => {
           <TouchableOpacity onPress={() => searchImage(currentCard.definition)}>
             <Image
               style={styles.image}
-              source={{ uri: currentImage.toString() }}
+              source={currentImage ? { uri: currentImage } : blueRanger}
             />
           </TouchableOpacity>
         </View>

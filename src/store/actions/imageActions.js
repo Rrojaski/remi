@@ -1,24 +1,24 @@
 import * as TYPES from "../types";
 import axios from "axios";
 
-export const getImages = searchString => (
+export const getImages = searchString => async (
   dispatch,
-  getState,
-  { getFirebase, getFirestore }
+  getState
+  // { getFirebase, getFirestore }
 ) => {
-  console.log("reacieved", searchString);
-
   const baseUrl =
     "https://api.unsplash.com/search/photos?client_id=kpIGOlzK2GGf7tk4ZSQk83V46nb3r_YHcXPdW2-DVDE&query=";
   dispatch({ type: TYPES.GET_IMAGES });
+  console.log("reacieved", searchString);
 
   try {
-    axios.get(baseUrl + searchString).then(response => {
-      console.log(response.data.results.length);
+    console.log(baseUrl + searchString);
 
+    await axios.get(baseUrl + searchString).then(data => {
+      console.log(data.data.length);
       dispatch({
         type: TYPES.GET_IMAGES_SUCCESS,
-        payload: response.data.results
+        payload: data.data.results
       });
     });
   } catch (error) {

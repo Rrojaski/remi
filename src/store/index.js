@@ -19,7 +19,8 @@ if (window && window.location && window.location.hostname === "localhost") {
 }
 
 const middleware = [
-  thunk.withExtraArgument({ getFirebase, getFirestore })
+  thunk
+  // thunk.withExtraArgument({ getFirebase, getFirestore })
   // This is where you add other middleware like redux-observable
 ];
 
@@ -35,7 +36,7 @@ const store = createStore(
   initialState,
   compose(
     applyMiddleware(...middleware),
-    reduxFirestore(firebase, rrfConfig),
+    // reduxFirestore(firebase, rrfConfig),
     ...enhancers
   )
 );
