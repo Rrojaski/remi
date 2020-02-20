@@ -5,11 +5,22 @@ export const getCards = () => async (
   getState,
   { getFirebase, getFirestore }
 ) => {
+  console.log("getcards action fired");
+
   const firestore = getFirestore();
   dispatch({ type: TYPES.GET_CARDS });
 
   try {
-    let response = await firestore.collectionGroup("cards").get();
+    console.log("fetching firestore data");
+
+    let response = "Cinco";
+    await firestore
+      .collectionGroup("cards")
+      .get()
+      .then(data => {
+        console.log(data, "firestore");
+      });
+
     let cards = response.docs.map(card => {
       let id = card.id;
       return { ...card.data(), id };
