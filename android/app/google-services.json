@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613177526817",
+    "firebase_url": "https://remi-a7e48.firebaseio.com",
+    "project_id": "remi-a7e48",
+    "storage_bucket": "remi-a7e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613177526817:android:40e63f0f065662eac77160",
+        "android_client_info": {
+          "package_name": "com.remi_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613177526817-3f83v2no87nh78m03jsf43sopjndumau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.remi_project",
+            "certificate_hash": "7a63d0c78b7a69379368e8f21079e20e743a5e8a"
+          }
+        },
+        {
+          "client_id": "613177526817-6l1nnjgpg3fdcomb5415vjdnusnf548o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiRCWnlD_TS_8magMVjNJI-PKhCNNrpUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613177526817-6l1nnjgpg3fdcomb5415vjdnusnf548o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

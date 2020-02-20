@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\roman.rojas\\Documents\\webapps\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\974c3810fdb95498f7f871eb2b94a4fb\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\6ea5ea6727306fb08de19e85b07ad57b\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

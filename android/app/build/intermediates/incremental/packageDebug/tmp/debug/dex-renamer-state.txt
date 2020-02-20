@@ -1,4 +1,4 @@
-#Sat Feb 15 13:01:49 EST 2020
+#Thu Feb 20 06:58:23 EST 2020
 base.0=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 renamed.1=classes2.dex

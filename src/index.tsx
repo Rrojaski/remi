@@ -48,11 +48,12 @@ const MyApp = props => {
     }
   }, [images]);
 
-  // useEffect(() => getCards(), []);
+  useEffect(() => {
+    getCards();
+  }, []);
 
   // useEffect(() => {
   //   console.log("Getting random card");
-
   //   if (cards[0]) {
   //     let randomCard = cards[randomCardIndex()];
   //     setCurrentCard(randomCard);
