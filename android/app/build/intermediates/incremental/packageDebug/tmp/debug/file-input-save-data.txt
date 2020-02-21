@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 20 06:58:24 EST 2020
+#Fri Feb 21 07:05:03 EST 2020
 56.path=lib/armeabi-v7a/libjsc.so
 5.base=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
