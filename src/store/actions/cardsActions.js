@@ -1,4 +1,5 @@
 import * as TYPES from "../types";
+import firestore from "@react-native-firebase/firestore";
 
 export const getCards = () => async (
   dispatch,
@@ -7,7 +8,7 @@ export const getCards = () => async (
 ) => {
   console.log("getcards action fired");
 
-  const firestore = getFirestore();
+  // const firestore = getFirestore();
   dispatch({ type: TYPES.GET_CARDS });
 
   try {
