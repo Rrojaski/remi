@@ -43,4 +43,8 @@ target 'REMI_PROJECT' do
 
   # Automatically detect installed unimodules
   use_unimodules!
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+
+  pod 'RNFBFirestore', :path => '../node_modules/@react-native-firebase/firestore'
+
 end

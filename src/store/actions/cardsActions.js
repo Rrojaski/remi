@@ -19,7 +19,7 @@ export const getCards = () => async (
       .collectionGroup("cards")
       .get()
       .then(data => {
-        console.log(data, "firestore");
+        console.log("firestore responsed");
       });
 
     let cards = response.docs.map(card => {
