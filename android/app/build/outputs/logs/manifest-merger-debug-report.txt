@@ -4,14 +4,16 @@ ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\Andr
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:@react-native-firebase_firestore] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:@react-native-firebase_app] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-permissions] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-react-native-adapter] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\62b98865ec4d5cf4f774a4970afc0cf3\AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\35a1eeb95ef091599ca805e6f922438c\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\6ea5ea6727306fb08de19e85b07ad57b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\20c36d0e64172b8d8eff3010b439c154\AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-permissions] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0310c055ad153d01306b1be2d7d4c41a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\621e2bbe00b1aee94051d6c219fc94f3\AndroidManifest.xml:17:1-24:12
 MERGED from [:expo-app-loader-provider] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-constants] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-error-recovery] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -33,58 +35,78 @@ MERGED from [:unimodules-task-manager-interface] C:\Users\roman.rojas\Documents\
 MERGED from [:unimodules-core] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-image-loader-interface] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-sensors-interface] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\2a2d14b73388bdfa279c43e4b6a55e80\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\8b58852f39ea0239e7a8369cefc74a2e\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\3bc7d4f6f5f5ce1f2b2f67c8dee00145\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a2d6ff33dfd8443304d81237997c8e10\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\0d90cdc6b14a3603d6f6915695f23149\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\9553d40b26a6795da0d19c418ddf6a35\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\9089926a7bd35e1a9c220aa89b7c6de1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\85a9942342f6c4c9982f3c127af79ade\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\93356845a6d4ff9e433b8e31a4fe8998\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\eedfd99c47a804869dd8847ed88fdb65\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\a09f8aaee5e32ca862b910174c137d49\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\d44f845826293a0ca47b2b1669dfbee8\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\a4e66bcf3a6676ee2091ea2f5d50a260\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\15195d808fa1c9774d0a98e765c3979b\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\32f1a67f8e5cc83f159bb497954f8842\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\e09df420d286074da5aa5020c59fa155\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\942e649a2bfcd83fa75ae04cda4c0860\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\3c3b95233067123c8f5fbbdae0f7e2fa\AndroidManifest.xml:2:1-13:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aae2dcf4574f2fc90074f2d06882f3d3\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\c69e7ca30f6adc09a0aa6c9b05bb10ef\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\e152b2ddbca836871ab27b74cb3ea4a4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\c22a2afb2c853590db0628888ea459b8\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\59fa2df9e0093b86fb3cd43167b65b5d\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\63ca71bc6d3e77f751a30a9cbd56627f\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\315c814b8590b5c56cfb6f4ee8fa1d3f\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\6217c0db85056ba70a1812100dcd2e30\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\dcdc2310d698ec8c3fa30d4bbb64c2b4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\3a11bebc3bd94ef39ced8b500cd52682\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\38c2f74dd90c85f74e04415a03dcd9d7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\c04c2ba031126346eefa1cc297a6d401\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\5170eee052466772fa025cf286dfd227\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\6d9ca5e050176ebb1c19ed825bc0ab4a\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\399e55ea6886901215f07afbd0af1358\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\40012914fbfdac920e41a7d31600aacf\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\5d9e7d2f64820dbfdf47e9d85756194a\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\a6ad67baa21364168ae523748c7301cf\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\970306a28359871a32ec642c9f64e1b9\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b7391f28da1b78277a860ae27fccc34c\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\631b18d8911d65724ffdad62cbb72b2b\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\1c2614c98645e18b8e9f69fdb0227c4d\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\019934c6c007035eb96d9a86a5777d6f\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\3fcfe85b7b4d789f0dc96fd884d08a71\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\3354b1374ad9212524ae858c3d8c7dba\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\b9eea3a7036e6a988fa4ff5e409553e8\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\f91ce179491ec27361eac3f484a08085\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\6cc7592f0d33f73280fc03bc3fde34fa\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\75790a0abaa85d547d91cd25f77b07fe\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\0321de9eb14ac088a98c1e50bfe02772\AndroidManifest.xml:17:1-22:12
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:2:1-30:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\d1abc41c74dfd15098d90e5fb0d4e133\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d1c8a9a45666eb162011bb9901b8c677\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\524edb60993ad3a54a778f53b4432918\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e13499d3f65d01a06e68263682cb0578\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e654390466103cdc594f0350cd7a3e47\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\bc4e04c46d694e2675efd80e91c42e7a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:17:1-29:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\30d013820c73fe790e0154bfc5e81628\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f10e81b9932cb7411636ed9f05de6e16\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\05d0f9f02623895482439fca313c8cb4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d563202d8c5a18cef6d6ae8660c1103d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65a07a08a13508d5aaeec043c585709b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a897b8b769446d6c12e69b907a11f0d2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6176da8c14405b3ad1fce338ab0ca5d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0fc663aeec915f3e2d5cf044a3abe540\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d4297922a44424fe26501cc8752ba2ff\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b455f162dcf818338f8d82161d4fb242\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f6a1e3afa09e5a81fe1cc92610a97fb2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\4aa670560899923b91b096ef4e3d2bfe\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7e8c20ca8c83431fe6e74259dadeb4c4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1eca7c5f3cd7b576ed090c071ed1fef0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\054626a413960acd969f389753910952\AndroidManifest.xml:2:1-13:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ba2a0780b5d549be9db03abf98a39821\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d32e0c7f4e764cbb86b021dccbb7d0a8\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\106ef3d8e4006d2dc046404660cae1f3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9666d6734198109c1dc4afdb45ab7b1f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43c0917807ebcb15efd13e69cb66fc43\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\eb42f99dc2099e79d111b135fdc76a84\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65987e2070878979dbbf98660028b839\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1e5c4483689543fc3f4cc1de2a8a186d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\82461d781f78840be970cc76a0cd75f2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f08ed478e2d3c86734d8a29ff2fb0136\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\57db75b246378346fc75837dc3dda8bd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e741896930877bc5c8a33b1367a10261\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\5f42a10ec02ccc6dd6c8e93526151499\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ae023413926fcc3684528751a18ab45a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9a23e1654eaf1b43bf78fb7c946adf01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b2371c3ca28810468a20b3c83ae2152e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1b1493bf9e1d7cd5eaf889d8c309b1fb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\54ef603acc60c9846ca4eb65c7587bd1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\406877ab73e4087f1ea63426b06f28af\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c4ac223c8895ca18357e3825f60777a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\91d1b7041abaa385c10b007ce6e6c604\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ab23453f12b75c9299e926631e1f99a2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a52ff6e14ae3539d74c3cbfd47f4f094\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7df9d46e8f30d29262cc3bfbf01e6885\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6e791fc5626f068178b4a855944983ed\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\98bc8e08413ac7c688b5028d86ff8fd7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a2c9edfba6ada7c58a63472e1a9fe35e\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2d3e4d9c12ad71a4e1d7ab7d201d7dd5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\21c703deac08f853d3059795de828285\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\37d62804396fc977ae2eb378b9a51831\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\32bf493ff3c31ceaa0dfbbea6ecd9fbc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6d0bddbb052e84fc5ee2f52804e8938a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\64d776be9f34019b53030e7a5df7f02a\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c0aecee7af5643e012dbf37934041d0e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\8e8762f1c61562187407c0576ba3522e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43e83cf911ad7984f4e9a934e5a4e1ac\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\113fc2ad7eb2fadcaa7a5ed49c4dc364\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a5485460e3d3dafdf24a388c9e537235\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c4cdece042e72d4d7ed3da6050650043\AndroidManifest.xml:17:1-22:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c824c42c6ae93ff0c452afa148c1c7cb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3c5adb5d539cb188404cf53e4f533e55\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfde1c2698e9790b3599d2bd9fa0638b\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
@@ -106,6 +128,18 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [:expo-file-system] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 MERGED from [:expo-file-system] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -140,16 +174,16 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:16:5-81
 MERGED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
 MERGED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:12:5-81
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:16:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:17:5-79
 MERGED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
 MERGED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:14:5-79
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:14:5-79
 	android:name
 		ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.CAMERA
@@ -190,38 +224,68 @@ ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\Andr
 		ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:25:22-70
 application
 ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:28:5-46:19
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\62b98865ec4d5cf4f774a4970afc0cf3\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\62b98865ec4d5cf4f774a4970afc0cf3\AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\35a1eeb95ef091599ca805e6f922438c\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\35a1eeb95ef091599ca805e6f922438c\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\20c36d0e64172b8d8eff3010b439c154\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\20c36d0e64172b8d8eff3010b439c154\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0310c055ad153d01306b1be2d7d4c41a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0310c055ad153d01306b1be2d7d4c41a\AndroidManifest.xml:22:5-20
 MERGED from [:expo-file-system] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
 MERGED from [:expo-file-system] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
 MERGED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
 MERGED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\8b58852f39ea0239e7a8369cefc74a2e\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\8b58852f39ea0239e7a8369cefc74a2e\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\3bc7d4f6f5f5ce1f2b2f67c8dee00145\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\3bc7d4f6f5f5ce1f2b2f67c8dee00145\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a2d6ff33dfd8443304d81237997c8e10\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a2d6ff33dfd8443304d81237997c8e10\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:22:5-26:19
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\3c3b95233067123c8f5fbbdae0f7e2fa\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\3c3b95233067123c8f5fbbdae0f7e2fa\AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aae2dcf4574f2fc90074f2d06882f3d3\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aae2dcf4574f2fc90074f2d06882f3d3\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\c69e7ca30f6adc09a0aa6c9b05bb10ef\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\c69e7ca30f6adc09a0aa6c9b05bb10ef\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\5d9e7d2f64820dbfdf47e9d85756194a\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\5d9e7d2f64820dbfdf47e9d85756194a\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\631b18d8911d65724ffdad62cbb72b2b\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\631b18d8911d65724ffdad62cbb72b2b\AndroidManifest.xml:24:5-25:19
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:18:5-28:19
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:18:5-28:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d1c8a9a45666eb162011bb9901b8c677\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d1c8a9a45666eb162011bb9901b8c677\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\524edb60993ad3a54a778f53b4432918\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\524edb60993ad3a54a778f53b4432918\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e13499d3f65d01a06e68263682cb0578\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e13499d3f65d01a06e68263682cb0578\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e654390466103cdc594f0350cd7a3e47\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e654390466103cdc594f0350cd7a3e47\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\bc4e04c46d694e2675efd80e91c42e7a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\bc4e04c46d694e2675efd80e91c42e7a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:25:5-37:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\054626a413960acd969f389753910952\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\054626a413960acd969f389753910952\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d32e0c7f4e764cbb86b021dccbb7d0a8\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d32e0c7f4e764cbb86b021dccbb7d0a8\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\106ef3d8e4006d2dc046404660cae1f3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\106ef3d8e4006d2dc046404660cae1f3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9666d6734198109c1dc4afdb45ab7b1f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9666d6734198109c1dc4afdb45ab7b1f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43c0917807ebcb15efd13e69cb66fc43\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43c0917807ebcb15efd13e69cb66fc43\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\eb42f99dc2099e79d111b135fdc76a84\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\eb42f99dc2099e79d111b135fdc76a84\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65987e2070878979dbbf98660028b839\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65987e2070878979dbbf98660028b839\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1e5c4483689543fc3f4cc1de2a8a186d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1e5c4483689543fc3f4cc1de2a8a186d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\82461d781f78840be970cc76a0cd75f2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\82461d781f78840be970cc76a0cd75f2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7df9d46e8f30d29262cc3bfbf01e6885\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7df9d46e8f30d29262cc3bfbf01e6885\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a2c9edfba6ada7c58a63472e1a9fe35e\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a2c9edfba6ada7c58a63472e1a9fe35e\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\21c703deac08f853d3059795de828285\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\21c703deac08f853d3059795de828285\AndroidManifest.xml:24:5-25:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:18:5-28:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\5d9e7d2f64820dbfdf47e9d85756194a\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7df9d46e8f30d29262cc3bfbf01e6885\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml:30:7-39
 	android:roundIcon
@@ -262,22 +326,26 @@ uses-sdk
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml
+MERGED from [:@react-native-firebase_firestore] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_firestore] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_app] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_app] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-react-native-adapter] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-react-native-adapter] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\62b98865ec4d5cf4f774a4970afc0cf3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\62b98865ec4d5cf4f774a4970afc0cf3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\35a1eeb95ef091599ca805e6f922438c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\35a1eeb95ef091599ca805e6f922438c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\6ea5ea6727306fb08de19e85b07ad57b\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\6ea5ea6727306fb08de19e85b07ad57b\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\20c36d0e64172b8d8eff3010b439c154\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\20c36d0e64172b8d8eff3010b439c154\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0310c055ad153d01306b1be2d7d4c41a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0310c055ad153d01306b1be2d7d4c41a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\621e2bbe00b1aee94051d6c219fc94f3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\621e2bbe00b1aee94051d6c219fc94f3\AndroidManifest.xml:20:5-22:41
 MERGED from [:expo-app-loader-provider] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-app-loader-provider] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-constants] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -320,110 +388,150 @@ MERGED from [:unimodules-image-loader-interface] C:\Users\roman.rojas\Documents\
 MERGED from [:unimodules-image-loader-interface] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-sensors-interface] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-sensors-interface] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\2a2d14b73388bdfa279c43e4b6a55e80\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\2a2d14b73388bdfa279c43e4b6a55e80\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\8b58852f39ea0239e7a8369cefc74a2e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\8b58852f39ea0239e7a8369cefc74a2e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\3bc7d4f6f5f5ce1f2b2f67c8dee00145\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\3bc7d4f6f5f5ce1f2b2f67c8dee00145\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a2d6ff33dfd8443304d81237997c8e10\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a2d6ff33dfd8443304d81237997c8e10\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\0d90cdc6b14a3603d6f6915695f23149\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\0d90cdc6b14a3603d6f6915695f23149\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\9553d40b26a6795da0d19c418ddf6a35\AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\9553d40b26a6795da0d19c418ddf6a35\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\9089926a7bd35e1a9c220aa89b7c6de1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\9089926a7bd35e1a9c220aa89b7c6de1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\85a9942342f6c4c9982f3c127af79ade\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\85a9942342f6c4c9982f3c127af79ade\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\93356845a6d4ff9e433b8e31a4fe8998\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\93356845a6d4ff9e433b8e31a4fe8998\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\eedfd99c47a804869dd8847ed88fdb65\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\eedfd99c47a804869dd8847ed88fdb65\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\a09f8aaee5e32ca862b910174c137d49\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\a09f8aaee5e32ca862b910174c137d49\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\d44f845826293a0ca47b2b1669dfbee8\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\d44f845826293a0ca47b2b1669dfbee8\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\a4e66bcf3a6676ee2091ea2f5d50a260\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\a4e66bcf3a6676ee2091ea2f5d50a260\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\15195d808fa1c9774d0a98e765c3979b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\15195d808fa1c9774d0a98e765c3979b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\32f1a67f8e5cc83f159bb497954f8842\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\32f1a67f8e5cc83f159bb497954f8842\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\e09df420d286074da5aa5020c59fa155\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\e09df420d286074da5aa5020c59fa155\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\942e649a2bfcd83fa75ae04cda4c0860\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\942e649a2bfcd83fa75ae04cda4c0860\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\3c3b95233067123c8f5fbbdae0f7e2fa\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\3c3b95233067123c8f5fbbdae0f7e2fa\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aae2dcf4574f2fc90074f2d06882f3d3\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\aae2dcf4574f2fc90074f2d06882f3d3\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\c69e7ca30f6adc09a0aa6c9b05bb10ef\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\c69e7ca30f6adc09a0aa6c9b05bb10ef\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\e152b2ddbca836871ab27b74cb3ea4a4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\e152b2ddbca836871ab27b74cb3ea4a4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\c22a2afb2c853590db0628888ea459b8\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\c22a2afb2c853590db0628888ea459b8\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\59fa2df9e0093b86fb3cd43167b65b5d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\59fa2df9e0093b86fb3cd43167b65b5d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\63ca71bc6d3e77f751a30a9cbd56627f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\63ca71bc6d3e77f751a30a9cbd56627f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\315c814b8590b5c56cfb6f4ee8fa1d3f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\315c814b8590b5c56cfb6f4ee8fa1d3f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\6217c0db85056ba70a1812100dcd2e30\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\6217c0db85056ba70a1812100dcd2e30\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\dcdc2310d698ec8c3fa30d4bbb64c2b4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\dcdc2310d698ec8c3fa30d4bbb64c2b4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\3a11bebc3bd94ef39ced8b500cd52682\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\3a11bebc3bd94ef39ced8b500cd52682\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\38c2f74dd90c85f74e04415a03dcd9d7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\38c2f74dd90c85f74e04415a03dcd9d7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\c04c2ba031126346eefa1cc297a6d401\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\c04c2ba031126346eefa1cc297a6d401\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\5170eee052466772fa025cf286dfd227\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\5170eee052466772fa025cf286dfd227\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\6d9ca5e050176ebb1c19ed825bc0ab4a\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\6d9ca5e050176ebb1c19ed825bc0ab4a\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\399e55ea6886901215f07afbd0af1358\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\399e55ea6886901215f07afbd0af1358\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\40012914fbfdac920e41a7d31600aacf\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\40012914fbfdac920e41a7d31600aacf\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\5d9e7d2f64820dbfdf47e9d85756194a\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\5d9e7d2f64820dbfdf47e9d85756194a\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\a6ad67baa21364168ae523748c7301cf\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\a6ad67baa21364168ae523748c7301cf\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\970306a28359871a32ec642c9f64e1b9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\970306a28359871a32ec642c9f64e1b9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b7391f28da1b78277a860ae27fccc34c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b7391f28da1b78277a860ae27fccc34c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\631b18d8911d65724ffdad62cbb72b2b\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\631b18d8911d65724ffdad62cbb72b2b\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\1c2614c98645e18b8e9f69fdb0227c4d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\1c2614c98645e18b8e9f69fdb0227c4d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\019934c6c007035eb96d9a86a5777d6f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\019934c6c007035eb96d9a86a5777d6f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\3fcfe85b7b4d789f0dc96fd884d08a71\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\3fcfe85b7b4d789f0dc96fd884d08a71\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\3354b1374ad9212524ae858c3d8c7dba\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\3354b1374ad9212524ae858c3d8c7dba\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\b9eea3a7036e6a988fa4ff5e409553e8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\b9eea3a7036e6a988fa4ff5e409553e8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\f91ce179491ec27361eac3f484a08085\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\f91ce179491ec27361eac3f484a08085\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\6cc7592f0d33f73280fc03bc3fde34fa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\6cc7592f0d33f73280fc03bc3fde34fa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\75790a0abaa85d547d91cd25f77b07fe\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\75790a0abaa85d547d91cd25f77b07fe\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\0321de9eb14ac088a98c1e50bfe02772\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\0321de9eb14ac088a98c1e50bfe02772\AndroidManifest.xml:20:5-44
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:8:5-10:41
-MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\d1abc41c74dfd15098d90e5fb0d4e133\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\d1abc41c74dfd15098d90e5fb0d4e133\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d1c8a9a45666eb162011bb9901b8c677\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d1c8a9a45666eb162011bb9901b8c677\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\524edb60993ad3a54a778f53b4432918\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\524edb60993ad3a54a778f53b4432918\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e13499d3f65d01a06e68263682cb0578\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e13499d3f65d01a06e68263682cb0578\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e654390466103cdc594f0350cd7a3e47\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e654390466103cdc594f0350cd7a3e47\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\bc4e04c46d694e2675efd80e91c42e7a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\bc4e04c46d694e2675efd80e91c42e7a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\30d013820c73fe790e0154bfc5e81628\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\30d013820c73fe790e0154bfc5e81628\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f10e81b9932cb7411636ed9f05de6e16\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f10e81b9932cb7411636ed9f05de6e16\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\05d0f9f02623895482439fca313c8cb4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\05d0f9f02623895482439fca313c8cb4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d563202d8c5a18cef6d6ae8660c1103d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d563202d8c5a18cef6d6ae8660c1103d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65a07a08a13508d5aaeec043c585709b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65a07a08a13508d5aaeec043c585709b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a897b8b769446d6c12e69b907a11f0d2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a897b8b769446d6c12e69b907a11f0d2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6176da8c14405b3ad1fce338ab0ca5d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6176da8c14405b3ad1fce338ab0ca5d7\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0fc663aeec915f3e2d5cf044a3abe540\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\0fc663aeec915f3e2d5cf044a3abe540\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d4297922a44424fe26501cc8752ba2ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d4297922a44424fe26501cc8752ba2ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b455f162dcf818338f8d82161d4fb242\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b455f162dcf818338f8d82161d4fb242\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f6a1e3afa09e5a81fe1cc92610a97fb2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f6a1e3afa09e5a81fe1cc92610a97fb2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\4aa670560899923b91b096ef4e3d2bfe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\4aa670560899923b91b096ef4e3d2bfe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7e8c20ca8c83431fe6e74259dadeb4c4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7e8c20ca8c83431fe6e74259dadeb4c4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1eca7c5f3cd7b576ed090c071ed1fef0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1eca7c5f3cd7b576ed090c071ed1fef0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\054626a413960acd969f389753910952\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\054626a413960acd969f389753910952\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ba2a0780b5d549be9db03abf98a39821\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ba2a0780b5d549be9db03abf98a39821\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d32e0c7f4e764cbb86b021dccbb7d0a8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\d32e0c7f4e764cbb86b021dccbb7d0a8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\106ef3d8e4006d2dc046404660cae1f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\106ef3d8e4006d2dc046404660cae1f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9666d6734198109c1dc4afdb45ab7b1f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9666d6734198109c1dc4afdb45ab7b1f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43c0917807ebcb15efd13e69cb66fc43\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43c0917807ebcb15efd13e69cb66fc43\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\eb42f99dc2099e79d111b135fdc76a84\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\eb42f99dc2099e79d111b135fdc76a84\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65987e2070878979dbbf98660028b839\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\65987e2070878979dbbf98660028b839\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1e5c4483689543fc3f4cc1de2a8a186d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1e5c4483689543fc3f4cc1de2a8a186d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\82461d781f78840be970cc76a0cd75f2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\82461d781f78840be970cc76a0cd75f2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f08ed478e2d3c86734d8a29ff2fb0136\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\f08ed478e2d3c86734d8a29ff2fb0136\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\57db75b246378346fc75837dc3dda8bd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\57db75b246378346fc75837dc3dda8bd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e741896930877bc5c8a33b1367a10261\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\e741896930877bc5c8a33b1367a10261\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\5f42a10ec02ccc6dd6c8e93526151499\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\5f42a10ec02ccc6dd6c8e93526151499\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ae023413926fcc3684528751a18ab45a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ae023413926fcc3684528751a18ab45a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9a23e1654eaf1b43bf78fb7c946adf01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9a23e1654eaf1b43bf78fb7c946adf01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b2371c3ca28810468a20b3c83ae2152e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b2371c3ca28810468a20b3c83ae2152e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1b1493bf9e1d7cd5eaf889d8c309b1fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\1b1493bf9e1d7cd5eaf889d8c309b1fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\54ef603acc60c9846ca4eb65c7587bd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\54ef603acc60c9846ca4eb65c7587bd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\406877ab73e4087f1ea63426b06f28af\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\406877ab73e4087f1ea63426b06f28af\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c4ac223c8895ca18357e3825f60777a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c4ac223c8895ca18357e3825f60777a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\91d1b7041abaa385c10b007ce6e6c604\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\91d1b7041abaa385c10b007ce6e6c604\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ab23453f12b75c9299e926631e1f99a2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ab23453f12b75c9299e926631e1f99a2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a52ff6e14ae3539d74c3cbfd47f4f094\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a52ff6e14ae3539d74c3cbfd47f4f094\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7df9d46e8f30d29262cc3bfbf01e6885\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\7df9d46e8f30d29262cc3bfbf01e6885\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6e791fc5626f068178b4a855944983ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6e791fc5626f068178b4a855944983ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\98bc8e08413ac7c688b5028d86ff8fd7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\98bc8e08413ac7c688b5028d86ff8fd7\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a2c9edfba6ada7c58a63472e1a9fe35e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a2c9edfba6ada7c58a63472e1a9fe35e\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2d3e4d9c12ad71a4e1d7ab7d201d7dd5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2d3e4d9c12ad71a4e1d7ab7d201d7dd5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\21c703deac08f853d3059795de828285\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\21c703deac08f853d3059795de828285\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\37d62804396fc977ae2eb378b9a51831\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\37d62804396fc977ae2eb378b9a51831\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\32bf493ff3c31ceaa0dfbbea6ecd9fbc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\32bf493ff3c31ceaa0dfbbea6ecd9fbc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6d0bddbb052e84fc5ee2f52804e8938a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\6d0bddbb052e84fc5ee2f52804e8938a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\64d776be9f34019b53030e7a5df7f02a\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\64d776be9f34019b53030e7a5df7f02a\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c0aecee7af5643e012dbf37934041d0e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c0aecee7af5643e012dbf37934041d0e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\8e8762f1c61562187407c0576ba3522e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\8e8762f1c61562187407c0576ba3522e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43e83cf911ad7984f4e9a934e5a4e1ac\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\43e83cf911ad7984f4e9a934e5a4e1ac\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\113fc2ad7eb2fadcaa7a5ed49c4dc364\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\113fc2ad7eb2fadcaa7a5ed49c4dc364\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a5485460e3d3dafdf24a388c9e537235\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\a5485460e3d3dafdf24a388c9e537235\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c4cdece042e72d4d7ed3da6050650043\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c4cdece042e72d4d7ed3da6050650043\AndroidManifest.xml:20:5-44
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c824c42c6ae93ff0c452afa148c1c7cb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c824c42c6ae93ff0c452afa148c1c7cb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3c5adb5d539cb188404cf53e4f533e55\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3c5adb5d539cb188404cf53e4f533e55\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfde1c2698e9790b3599d2bd9fa0638b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfde1c2698e9790b3599d2bd9fa0638b\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -466,47 +574,185 @@ ADDED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_mod
 		ADDED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
 	android:name
 		ADDED from [:expo-location] C:\Users\roman.rojas\Documents\webapps\remi\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\fc3aba1a23bbda8cdda4b6ac4821c3fa\AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\9a033eea2c369321d29c3180128f1e26\AndroidManifest.xml:24:13-58
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:13:5-79
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ba2a0780b5d549be9db03abf98a39821\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ba2a0780b5d549be9db03abf98a39821\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:24:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:13:22-76
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:18:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\b0e05aa776aa5658e7b6fd9de0b8fe0a\AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ed061edaefb5a4581550cae9dda82065\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9c160b360b072172f086db690850edd3\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\2c144b30205045e319ff513d46dea637\AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\9af4d5e806854407067c8665c66e6511\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\3480316e09c263fef1c50387370a0090\AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\c2eefdacb5ef440786f2a2f3e086907e\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\301b7e83d2304b6140d0cfb9bcd97108\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\cfe603114b2e9e361a904b2a46c87f72\AndroidManifest.xml:24:13-58
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:15:5-98
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:15:5-98
 	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:15:22-95
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:15:22-95
 uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
-ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:16:5-94
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:16:5-94
 	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:16:22-91
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:16:22-91
 service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:19:9-21:40
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:21:13-37
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:20:13-132
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:20:13-132
 service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:22:9-24:40
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:24:13-37
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:23:13-127
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:23:13-127
 service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
-ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:25:9-27:40
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:27:13-37
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\39641b0d91fdb7304a74550ef899e1b4\AndroidManifest.xml:26:13-120
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\roman.rojas\.gradle\caches\transforms-2\files-2.1\ff6c0bee88d2eaf44b952b00c5fdae7b\AndroidManifest.xml:26:13-120

@@ -3,6 +3,8 @@ package com.remi_project;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
+import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -40,6 +42,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactNativeFirebaseFirestorePackage(),
+            new ReactNativeFirebaseAppPackage(),
           new ReanimatedPackage(),
           new RNGestureHandlerPackage(),
           new RNScreensPackage(),
