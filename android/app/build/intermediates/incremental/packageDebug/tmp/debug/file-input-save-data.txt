@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 23 15:53:59 EST 2020
+#Mon Feb 24 05:47:14 EST 2020
 56.path=lib/armeabi-v7a/libyoga.so
 5.base=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
