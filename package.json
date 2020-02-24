@@ -4,7 +4,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "postinstall": "jetify && jetify"
+    "postinstall": "jetify && jetify",
+    "clean-android": "cd android && gradlew clean"
   },
   "dependencies": {
     "@react-native-firebase/app": "^6.3.4",
