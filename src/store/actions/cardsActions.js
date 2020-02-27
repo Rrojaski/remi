@@ -1,5 +1,6 @@
 import * as TYPES from "../types";
 import firestore from "@react-native-firebase/firestore";
+import firebase from "@react-native-firebase/app";
 
 export const getCards = () => async (
   dispatch,
@@ -15,6 +16,7 @@ export const getCards = () => async (
     console.log("fetching firestore data");
 
     let response = "Cinco";
+    let db = await firebase.database();
     await firestore
       .collectionGroup("cards")
       .get()
