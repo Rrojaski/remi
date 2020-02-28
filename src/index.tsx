@@ -16,7 +16,7 @@ import { getImages } from "./store/actions/imageActions";
 import { connect } from "react-redux";
 import axios from "axios";
 import blueRanger from "./assets/images/blue_ranger.png";
-
+// import firestore from "@react-native-firebase/firestore";
 const MyApp = props => {
   const baseApi = "http://api.giphy.com/v1/gifs";
 
@@ -31,6 +31,11 @@ const MyApp = props => {
 
   useEffect(() => {
     console.log("getting screen dimensions");
+
+
+    // let db = firestore.
+
+
 
     setShowAnswer(false);
     let { width, height } = Dimensions.get("window");
