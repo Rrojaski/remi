@@ -16,7 +16,31 @@ export const getCards = () => async (
     console.log("fetching firestore data");
 
     let response = "Cinco";
-    let db = await firebase.database();
+    // let db = await firebase.database();
+    let db = firebase
+      .database()
+      .ref()
+      .child("object");
+
+    db.on("value", snap => console.log(snap.value()));
+
+    // firebase
+    //   .database()
+    //   .ref("remi-a7e48/", "cards/", "P0JvsRsg9fyrM1yTmdEf/")
+    //   .set(
+    //     {
+    //       testName: "peter"
+    //     },
+    //     function(error) {
+    //       if (error) {
+    //         // The write failed...
+    //       } else {
+    //         // Data saved successfully!
+    //       }
+    //     }
+    //   );
+    console.log("updated card to Peter");
+
     await firestore
       .collectionGroup("cards")
       .get()
