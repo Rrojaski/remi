@@ -1,11 +1,8 @@
 import * as TYPES from "../types";
 import axios from "axios";
 
-export const getImages = searchString => async (
-  dispatch,
-  getState
-  // { getFirebase, getFirestore }
-) => {
+export const getImage = searchString => async (dispatch, getState) => {
+  let { cards } = getState();
   const baseUrl =
     "https://api.unsplash.com/search/photos?client_id=kpIGOlzK2GGf7tk4ZSQk83V46nb3r_YHcXPdW2-DVDE&query=";
   dispatch({ type: TYPES.GET_IMAGES });

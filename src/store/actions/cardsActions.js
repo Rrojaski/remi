@@ -1,76 +1,34 @@
 import * as TYPES from "../types";
-import firestore from "@react-native-firebase/firestore";
-import firebase from "@react-native-firebase/app";
 
-export const getCards = () => async (
-  dispatch,
-  getState,
-  { getFirebase, getFirestore }
-) => {
-  console.log("getcards action fired");
-
-  // const firestore = getFirestore();
-  dispatch({ type: TYPES.GET_CARDS });
-
-  try {
-    console.log("fetching firestore data");
-
-    let response = "Cinco";
-    // let db = await firebase.database();
-    let db = firebase
-      .database()
-      .ref()
-      .child("object");
-
-    db.on("value", snap => console.log(snap.value()));
-
-    // firebase
-    //   .database()
-    //   .ref("remi-a7e48/", "cards/", "P0JvsRsg9fyrM1yTmdEf/")
-    //   .set(
-    //     {
-    //       testName: "peter"
-    //     },
-    //     function(error) {
-    //       if (error) {
-    //         // The write failed...
-    //       } else {
-    //         // Data saved successfully!
-    //       }
-    //     }
-    //   );
-    console.log("updated card to Peter");
-
-    await firestore
-      .collectionGroup("cards")
-      .get()
-      .then(data => {
-        console.log("firestore responsed");
-      });
-
-    let cards = response.docs.map(card => {
-      let id = card.id;
-      return { ...card.data(), id };
-    });
-
-    console.log(cards, "Jennifer Lopez found these cards!");
-
-    dispatch({ type: TYPES.GET_CARDS_SUCCESS, payload: cards });
-  } catch (error) {
-    dispatch({ type: TYPES.GET_CARDS_FAIL, payload: error });
-  }
-};
-
-export const updateCard = card => async (
+export const getFirestoreCards = () => async (
   dispatch,
   getState,
   { getFirebase, getFirestore }
 ) => {
   const firestore = getFirestore();
-  dispatch({ type: TYPES.UPDATE_CARD });
-  try {
-    console.log(card, "updating this card: ", card);
+  dispatch({ type: TYPES.GET_FIRESTORE_CARDS });
 
+  try {
+    let response = await firestore.collectionGroup("cards").get();
+    let cards = response.docs.map(card => {
+      let id = card.id;
+      return { ...card.data(), id };
+    });
+
+    dispatch({ type: TYPES.GET_FIRESTORE_CARDS_SUCCESS, payload: cards });
+  } catch (error) {
+    dispatch({ type: TYPES.GET_FIRESTORE_CARDS_FAIL, payload: error });
+  }
+};
+
+export const updateFirestoreCard = card => async (
+  dispatch,
+  getState,
+  { getFirebase, getFirestore }
+) => {
+  const firestore = getFirestore();
+  dispatch({ type: UPDATE_FIRESTORE_CARD_CARD });
+  try {
     firestore
       .collection("cards")
       .doc(card.id)
@@ -80,8 +38,30 @@ export const updateCard = card => async (
         grade: card.grade,
         pronunciation: card.pronunciation
       });
-    dispatch({ type: TYPES.UPDATE_CARD_SUCCESS });
+    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_SUCCESS });
   } catch (error) {
-    dispatch({ type: TYPES.UPDATE_CARD_FAIL, payload: error });
+    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_FAIL, payload: error });
+  }
+};
+
+export const updateCurrentCard = card => async (
+  dispatch,
+  getState,
+  { getFirebase, getFirestore }
+) => {
+  dispatch({ type: TYPES.UPDATE_CURRENT_CARD });
+  try {
+    firestore
+      .collection("cards")
+      .doc(card.id)
+      .set({
+        character: card.character,
+        definition: card.definition,
+        grade: card.grade,
+        pronunciation: card.pronunciation
+      });
+    dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS });
+  } catch (error) {
+    dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
   }
 };

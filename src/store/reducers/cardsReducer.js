@@ -8,34 +8,34 @@ const initialState = {
 
 const cardReducer = (state = initialState, action) => {
   switch (action.type) {
-    case TYPES.GET_CARDS:
+    case TYPES.GET_FIRESTORE_CARDS:
       return {
         ...state,
         loading: true
       };
-    case TYPES.GET_CARDS_SUCCESS:
+    case TYPES.GET_FIRESTORE_CARDS_SUCCESS:
       return {
         ...state,
         cards: action.payload,
         loading: false
       };
-    case TYPES.GET_CARDS_FAIL:
+    case TYPES.GET_FIRESTORE_CARDS_FAIL:
       return {
         ...state,
         error: action.payload,
         loading: false
       };
-    case TYPES.UPDATE_CARD:
+    case TYPES.UPDATE_FIRESTORE_CARD:
       return {
         ...state,
         loading: true
       };
-    case TYPES.UPDATE_CARD_SUCCESS:
+    case TYPES.UPDATE_FIRESTORE_CARD_SUCCESS:
       return {
         ...state,
         loading: false
       };
-    case TYPES.UPDATE_CARD_FAIL:
+    case TYPES.UPDATE_FIRESTORE_CARD_FAIL:
       return {
         ...state,
         error: action.payload,

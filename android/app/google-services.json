@@ -8,20 +8,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:613177526817:android:40e63f0f065662eac77160",
+        "mobilesdk_app_id": "1:613177526817:android:b2769c6ff8d7460bc77160",
         "android_client_info": {
           "package_name": "com.remi_project"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "613177526817-3f83v2no87nh78m03jsf43sopjndumau.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.remi_project",
-            "certificate_hash": "7a63d0c78b7a69379368e8f21079e20e743a5e8a"
-          }
-        },
         {
           "client_id": "613177526817-6l1nnjgpg3fdcomb5415vjdnusnf548o.apps.googleusercontent.com",
           "client_type": 3
