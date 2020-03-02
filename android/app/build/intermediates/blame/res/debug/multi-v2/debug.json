@@ -5829,10 +5829,10 @@
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "54",
+                        "startOffsets": "57",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "177"
+                        "endOffsets": "182"
                     },
                     "to": {
                         "startLines": "607",
@@ -5992,9 +5992,9 @@
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "45",
-                        "endOffsets": "57"
+                        "endOffsets": "58"
                     },
                     "to": {
                         "startLines": "500",

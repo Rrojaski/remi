@@ -4,19 +4,20 @@ import {
   Text,
   View,
   Button,
-  Alert,
   Image,
   TouchableOpacity,
-  Dimensions,
-  TextInput
+  Dimensions
 } from "react-native";
 import Header from "./screens/Header/Header";
-import { getCards, updateCard } from "./store/actions/cardsActions";
-import { getImages } from "./store/actions/imageActions";
+import {
+  getFirestoreCards,
+  updateFirestoreCard
+} from "./store/actions/cardsActions";
+import { getImage } from "./store/actions/imageActions";
 import { connect } from "react-redux";
 import axios from "axios";
 import blueRanger from "./assets/images/blue_ranger.png";
-// import firestore from "@react-native-firebase/firestore";
+
 const MyApp = props => {
   const baseApi = "http://api.giphy.com/v1/gifs";
 
@@ -27,45 +28,39 @@ const MyApp = props => {
   const [currentCard, setCurrentCard] = useState({});
   const [cardIndex, setCardIndex] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
-  const { getCards, updateCard, getImages, cards, images } = props;
+  const {
+    getFirestoreCards,
+    updateFirestoreCard,
+    getImages,
+    cards,
+    image
+  } = props;
 
+  // Get Screen Dimension
   useEffect(() => {
-    console.log("getting screen dimensions");
-
-
-    // let db = firestore.
-
-
-
     setShowAnswer(false);
     let { width, height } = Dimensions.get("window");
-    console.log(width, height);
     setScreenHeight(height);
   }, []);
 
-  useEffect(() => {
-    if (images && images.length > 0) {
-      console.log("updating current image");
-      console.log(images[randomImageIndex(images.length)].urls.raw);
+  // useEffect(() => {
+  //   if (image && images.length > 0) {
+  //     setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
+  //   }
+  // }, [images]);
 
-      setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
-      console.log("useEffect current Image", currentImage);
-    }
-  }, [images]);
-
+  // Get Firestore Images
   useEffect(() => {
-    getCards();
+    getFirestoreCards();
   }, []);
 
-  // useEffect(() => {
-  //   console.log("Getting random card");
-  //   if (cards[0]) {
-  //     let randomCard = cards[randomCardIndex()];
-  //     setCurrentCard(randomCard);
-  //     searchImage(randomCard.definition);
-  //     console.log("found this card", randomCard);
-  //   }
-  // }, [cards]);
+  useEffect(() => {
+    if (cards[0]) {
+      let randomCard = cards[randomCardIndex()];
+      setCurrentCard(randomCard);
+      searchImage(randomCard.definition);
+    }
+  }, [cards]);
 
   const randomCardIndex = () => {
     let randomNumber = Math.floor(Math.random() * cards.length);
@@ -86,8 +81,7 @@ const MyApp = props => {
   };
 
   const searchImage = async searchTerm => {
-    searchTerm = "path";
-    await getImages(searchTerm);
+    await getImage();
 
     // setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
 
@@ -108,7 +102,7 @@ const MyApp = props => {
     if (currentGrade > 0) {
       currentGrade = currentGrade - 1;
     }
-    updateCard({ ...currentCard, grade: currentGrade });
+    updateFirestoreCard({ ...currentCard, grade: currentGrade });
     let randomCard = cards[randomCardIndex()];
     setCurrentCard(randomCard);
     searchImage(randomCard.definition);
@@ -121,7 +115,7 @@ const MyApp = props => {
     if (currentGrade <= 9) {
       currentGrade = currentGrade + 1;
     }
-    updateCard({ ...currentCard, grade: currentGrade });
+    updateFirestoreCard({ ...currentCard, grade: currentGrade });
     let randomCard = cards[randomCardIndex()];
     setCurrentCard(randomCard);
     searchImage(randomCard.definition);
@@ -283,9 +277,9 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = ({ cards, images }) => ({
   cards: cards.cards,
-  images: images.images
+  image: images.image
 });
 
-const mapDispatchToProps = { getCards, updateCard, getImages };
+const mapDispatchToProps = { getFirestoreCards, updateFirestoreCard };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
