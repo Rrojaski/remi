@@ -3,7 +3,8 @@ import * as TYPES from "../types";
 const initialState = {
   error: null,
   loading: false,
-  cards: []
+  cards: [],
+  currentCard: {}
 };
 
 const cardReducer = (state = initialState, action) => {
@@ -36,6 +37,24 @@ const cardReducer = (state = initialState, action) => {
         loading: false
       };
     case TYPES.UPDATE_FIRESTORE_CARD_FAIL:
+      return {
+        ...state,
+        error: action.payload,
+        loading: false
+      };
+    case TYPES.UPDATE_CURRENT_CARD:
+      return {
+        ...state,
+        currentCard: action.currentCard,
+        loading: true
+      };
+    case TYPES.UPDATE_CURRENT_CARD_SUCCESS:
+      return {
+        ...state,
+        error: action.payload,
+        loading: false
+      };
+    case TYPES.UPDATE_CURRENT_CARD_FAIL:
       return {
         ...state,
         error: action.payload,
