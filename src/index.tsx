@@ -11,7 +11,8 @@ import {
 import Header from "./screens/Header/Header";
 import {
   getFirestoreCards,
-  updateFirestoreCard
+  updateFirestoreCard,
+  updateCurrentCard
 } from "./store/actions/cardsActions";
 import { getImage } from "./store/actions/imageActions";
 import { connect } from "react-redux";
@@ -31,6 +32,7 @@ const MyApp = props => {
   const {
     getFirestoreCards,
     updateFirestoreCard,
+    updateCurrentCard,
     getImages,
     cards,
     image
@@ -98,6 +100,7 @@ const MyApp = props => {
   };
 
   const badClick = () => {
+    updateCurrentCard()
     let currentGrade = currentCard.grade;
     if (currentGrade > 0) {
       currentGrade = currentGrade - 1;
@@ -159,9 +162,7 @@ const MyApp = props => {
                 fontWeight: "bold"
               }}
             >
-              Characters should be displayed here
-              {currentCard.character}
-              {/* {currentCard && currentCard.character} */}
+              {currentCard && currentCard.character}
             </Text>
             <Text
               style={{
@@ -280,6 +281,6 @@ const mapStateToProps = ({ cards, images }) => ({
   image: images.image
 });
 
-const mapDispatchToProps = { getFirestoreCards, updateFirestoreCard };
+const mapDispatchToProps = { getFirestoreCards, updateFirestoreCard, updateCurrentCard };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
