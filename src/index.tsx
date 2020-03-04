@@ -26,7 +26,7 @@ const MyApp = props => {
   const [screenHeight, setScreenHeight] = useState(300);
   const [showAnswer, setShowAnswer] = useState(false);
   const [showDefinition, setShowDefinition] = useState(false);
-  const [currentCard, setCurrentCard] = useState({});
+  // const [currentCard, setCurrentCard] = useState({});
   const [cardIndex, setCardIndex] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
   const {
@@ -35,7 +35,8 @@ const MyApp = props => {
     updateCurrentCard,
     getImages,
     cards,
-    image
+    image,
+    currentCard
   } = props;
 
   // Get Screen Dimension
@@ -53,16 +54,20 @@ const MyApp = props => {
 
   // Get Firestore Images
   useEffect(() => {
-    getFirestoreCards();
+    async () => {
+      await getFirestoreCards();
+      updateCurrentCard();
+
+    };
   }, []);
 
-  useEffect(() => {
-    if (cards[0]) {
-      let randomCard = cards[randomCardIndex()];
-      setCurrentCard(randomCard);
-      searchImage(randomCard.definition);
-    }
-  }, [cards]);
+  // useEffect(() => {
+  //   if (cards[0]) {
+  //     let randomCard = cards[randomCardIndex()];
+  //     setCurrentCard(randomCard);
+  //     searchImage(randomCard.definition);
+  //   }
+  // }, [cards]);
 
   const randomCardIndex = () => {
     let randomNumber = Math.floor(Math.random() * cards.length);
@@ -100,7 +105,7 @@ const MyApp = props => {
   };
 
   const badClick = () => {
-    updateCurrentCard()
+    updateCurrentCard();
     let currentGrade = currentCard.grade;
     if (currentGrade > 0) {
       currentGrade = currentGrade - 1;
@@ -278,9 +283,14 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = ({ cards, images }) => ({
   cards: cards.cards,
+  currentCard: cards.currentCard,
   image: images.image
 });
 
-const mapDispatchToProps = { getFirestoreCards, updateFirestoreCard, updateCurrentCard };
+const mapDispatchToProps = {
+  getFirestoreCards,
+  updateFirestoreCard,
+  updateCurrentCard
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyApp);

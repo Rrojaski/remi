@@ -60,10 +60,12 @@ export const updateCurrentCard = card => async (
     let currentCard = getState().cards.currentCard;
     let nextCard = {};
 
-    do {
-      nextCard = firestoreCards[randomCardIndex(firestoreCards.length)];
-    } while (nextCard.id === currentCard.id);
-
+    if(currentCard) {
+      do {
+        nextCard = firestoreCards[randomCardIndex(firestoreCards.length)];
+      } while (nextCard.id === currentCard.id);
+    }
+      
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
