@@ -14,6 +14,7 @@ export const getFirestoreCards = () => async (
       let id = card.id;
       return { ...card.data(), id };
     });
+    console.log("Firestore responsed with this many cards: ", cards.length);
 
     dispatch({ type: TYPES.GET_FIRESTORE_CARDS_SUCCESS, payload: cards });
   } catch (error) {
@@ -54,18 +55,28 @@ export const updateCurrentCard = card => async (
   getState,
   { getFirebase, getFirestore }
 ) => {
+  console.log("updaing current card");
+
   dispatch({ type: TYPES.UPDATE_CURRENT_CARD });
   try {
     let firestoreCards = getState().cards.cards;
+    console.log("getting currentCard");
+
     let currentCard = getState().cards.currentCard;
+    if (!currentCard) {
+      currentCard = { id: randomCardIndex(firestoreCards.length) };
+    }
+    console.log("currentCard: ", currentCard);
     let nextCard = {};
 
-    if(currentCard) {
+    if (currentCard) {
       do {
         nextCard = firestoreCards[randomCardIndex(firestoreCards.length)];
       } while (nextCard.id === currentCard.id);
     }
-      
+
+    console.log("nextCard: ", nextCard);
+
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
