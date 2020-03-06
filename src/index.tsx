@@ -54,11 +54,10 @@ const MyApp = props => {
 
   // Get Firestore Images
   useEffect(() => {
-    async () => {
+    (async () => {
       await getFirestoreCards();
       updateCurrentCard();
-
-    };
+    })();
   }, []);
 
   // useEffect(() => {
