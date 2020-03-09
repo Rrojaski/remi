@@ -1,10 +1,11 @@
 import * as TYPES from "../types";
-
+import { showAnswer, showDefinition } from "./uiActions";
 export const getFirestoreCards = () => async (
   dispatch,
   getState,
   { getFirebase, getFirestore }
 ) => {
+
   const firestore = getFirestore();
   dispatch({ type: TYPES.GET_FIRESTORE_CARDS });
 
@@ -22,24 +23,37 @@ export const getFirestoreCards = () => async (
   }
 };
 
-export const updateFirestoreCard = card => async (
+export const updateFirestoreCard = condition => async (
   dispatch,
   getState,
   { getFirebase, getFirestore }
 ) => {
   const firestore = getFirestore();
   dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD });
+
   try {
+    let currentCard = getState().cards.currentCard;
+    if (condition === "good" && currentCard.grade < 10) {
+      currentCard.grade++;
+    }
+    if (condition === "bad" && currentCard.grade > 0) {
+      currentCard.grade--;
+    }
+
     firestore
       .collection("cards")
-      .doc(card.id)
+      .doc(currentCard.id)
       .set({
-        character: card.character,
-        definition: card.definition,
-        grade: card.grade,
-        pronunciation: card.pronunciation
+        character: currentCard.character,
+        definition: currentCard.definition,
+        grade: currentCard.grade,
+        pronunciation: currentCard.pronunciation
       });
+
     dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_SUCCESS });
+    dispatch(showAnswer(false));
+    dispatch(showDefinition(false));
+    dispatch(updateCurrentCard());
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_FAIL, payload: error });
   }
@@ -50,23 +64,20 @@ const randomCardIndex = cardArrayLength => {
   return randomNumber;
 };
 
-export const updateCurrentCard = card => async (
+export const updateCurrentCard = () => async (
   dispatch,
   getState,
   { getFirebase, getFirestore }
 ) => {
-  console.log("updaing current card");
 
   dispatch({ type: TYPES.UPDATE_CURRENT_CARD });
   try {
     let firestoreCards = getState().cards.cards;
-    console.log("getting currentCard");
 
     let currentCard = getState().cards.currentCard;
     if (!currentCard) {
       currentCard = { id: randomCardIndex(firestoreCards.length) };
     }
-    console.log("currentCard: ", currentCard);
     let nextCard = {};
 
     if (currentCard) {
@@ -74,8 +85,6 @@ export const updateCurrentCard = card => async (
         nextCard = firestoreCards[randomCardIndex(firestoreCards.length)];
       } while (nextCard.id === currentCard.id);
     }
-
-    console.log("nextCard: ", nextCard);
 
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
   } catch (error) {

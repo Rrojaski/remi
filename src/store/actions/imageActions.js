@@ -19,8 +19,6 @@ export const getImage = searchString => async (dispatch, getState) => {
       });
     });
   } catch (error) {
-    console.log(error);
-
-    dispatch({ type: TYPES.GET_IMAGES_FAIL, peyload: error });
+    dispatch({ type: TYPES.GET_IMAGES_FAIL, payload: error });
   }
 };

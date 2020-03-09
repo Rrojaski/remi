@@ -15,6 +15,7 @@ import {
   updateCurrentCard
 } from "./store/actions/cardsActions";
 import { getImage } from "./store/actions/imageActions";
+import { showAnswer, showDefinition } from "./store/actions/uiActions";
 import { connect } from "react-redux";
 import axios from "axios";
 import blueRanger from "./assets/images/blue_ranger.png";
@@ -24,24 +25,25 @@ const MyApp = props => {
 
   const [currentImage, setCurrentImage] = useState("");
   const [screenHeight, setScreenHeight] = useState(300);
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [showDefinition, setShowDefinition] = useState(false);
-  // const [currentCard, setCurrentCard] = useState({});
   const [cardIndex, setCardIndex] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
+
   const {
     getFirestoreCards,
     updateFirestoreCard,
     updateCurrentCard,
     getImages,
+    showAnswer,
+    showDefinition,
     cards,
     image,
-    currentCard
+    currentCard,
+    isShowAnswer,
+    isShowDefinition
   } = props;
 
   // Get Screen Dimension
   useEffect(() => {
-    setShowAnswer(false);
     let { width, height } = Dimensions.get("window");
     setScreenHeight(height);
   }, []);
@@ -68,24 +70,6 @@ const MyApp = props => {
   //   }
   // }, [cards]);
 
-  const randomCardIndex = () => {
-    let randomNumber = Math.floor(Math.random() * cards.length);
-    while (cardIndex === randomNumber) {
-      randomNumber = Math.floor(Math.random() * cards.length);
-    }
-    setCardIndex(randomNumber);
-    return cardIndex;
-  };
-
-  const randomImageIndex = arrayLength => {
-    let randomNumber = Math.floor(Math.random() * arrayLength);
-    do {
-      randomNumber = Math.floor(Math.random() * arrayLength);
-    } while (imageIndex === randomNumber);
-    setImageIndex(randomNumber);
-    return imageIndex;
-  };
-
   const searchImage = async searchTerm => {
     await getImage();
 
@@ -101,41 +85,6 @@ const MyApp = props => {
     //     setCurrentImage(`https://media.giphy.com/media/${gif.id}/giphy.gif`);
     //   })
     //   .catch(error => console.log(error.message));
-  };
-
-  const badClick = () => {
-    updateCurrentCard();
-    let currentGrade = currentCard.grade;
-    if (currentGrade > 0) {
-      currentGrade = currentGrade - 1;
-    }
-    updateFirestoreCard({ ...currentCard, grade: currentGrade });
-    let randomCard = cards[randomCardIndex()];
-    setCurrentCard(randomCard);
-    searchImage(randomCard.definition);
-    setShowAnswer(false);
-    setShowDefinition(false);
-  };
-
-  const goodClick = () => {
-    let currentGrade = currentCard.grade;
-    if (currentGrade <= 9) {
-      currentGrade = currentGrade + 1;
-    }
-    updateFirestoreCard({ ...currentCard, grade: currentGrade });
-    let randomCard = cards[randomCardIndex()];
-    setCurrentCard(randomCard);
-    searchImage(randomCard.definition);
-    setShowAnswer(false);
-    setShowDefinition(false);
-  };
-
-  const maybeClick = () => {
-    let randomCard = cards[randomCardIndex()];
-    setCurrentCard(randomCard);
-    searchImage(randomCard.definition);
-    setShowAnswer(false);
-    setShowDefinition(false);
   };
 
   return (
@@ -157,7 +106,7 @@ const MyApp = props => {
           </TouchableOpacity>
         </View>
 
-        {showAnswer ? (
+        {isShowAnswer ? (
           <View>
             <Text
               style={{
@@ -206,7 +155,7 @@ const MyApp = props => {
               {currentCard && currentCard.pronunciation}
             </Text>
 
-            {showDefinition ? (
+            {isShowDefinition ? (
               <View>
                 <Text
                   style={{
@@ -219,29 +168,36 @@ const MyApp = props => {
                 </Text>
               </View>
             ) : (
-              <View
-              // style={{
-              //   display: "block"
-              // }}
-              >
+              <View>
                 <Button
                   title="Definition"
-                  onPress={() => setShowDefinition(true)}
+                  onPress={() => showDefinition(true)}
                 />
               </View>
             )}
           </View>
         )}
 
-        {showAnswer ? (
+        {isShowAnswer ? (
           <View style={styles.buttonContainer}>
-            <Button color="red" title="WRONG" onPress={() => badClick()} />
-            <Button title="MAYBE" onPress={() => maybeClick()} />
-            <Button color="green" title="GOOD" onPress={() => goodClick()} />
+            <Button
+              color="red"
+              title="WRONG"
+              onPress={() => updateFirestoreCard("bad")}
+            />
+            <Button
+              title="MAYBE"
+              onPress={() => updateFirestoreCard("maybe")}
+            />
+            <Button
+              color="green"
+              title="GOOD"
+              onPress={() => updateFirestoreCard("good")}
+            />
           </View>
         ) : (
           <View style={styles.buttonContainer}>
-            <Button title="SHOW ANSWER" onPress={() => setShowAnswer(true)} />
+            <Button title="SHOW ANSWER" onPress={() => showAnswer(true)} />
           </View>
         )}
       </View>
@@ -265,7 +221,6 @@ const styles = StyleSheet.create({
     display: "flex",
     alignItems: "center",
     flexDirection: "column"
-    //backgroundColor: "#fff",
   },
   buttonContainer: {
     position: "absolute",
@@ -280,16 +235,20 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapStateToProps = ({ cards, images }) => ({
+const mapStateToProps = ({ cards, images, ui }) => ({
   cards: cards.cards,
   currentCard: cards.currentCard,
-  image: images.image
+  image: images.image,
+  isShowAnswer: ui.isShowAnswer,
+  isShowDefinition: ui.isShowDefinition
 });
 
 const mapDispatchToProps = {
   getFirestoreCards,
   updateFirestoreCard,
-  updateCurrentCard
+  updateCurrentCard,
+  showAnswer,
+  showDefinition
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
