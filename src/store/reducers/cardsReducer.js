@@ -51,7 +51,7 @@ const cardReducer = (state = initialState, action) => {
     case TYPES.UPDATE_CURRENT_CARD_SUCCESS:
       return {
         ...state,
-        error: action.payload,
+        currentCard: action.payload,
         loading: false
       };
     case TYPES.UPDATE_CURRENT_CARD_FAIL:
