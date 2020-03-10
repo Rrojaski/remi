@@ -3,7 +3,7 @@ import * as TYPES from "../types";
 const initialState = {
   error: null,
   loading: false,
-  images: []
+  image: []
 };
 
 const imageReducer = (state = initialState, action) => {
@@ -17,7 +17,7 @@ const imageReducer = (state = initialState, action) => {
     case TYPES.GET_IMAGES_SUCCESS:
       return {
         ...state,
-        images: action.payload,
+        image: action.payload,
         loading: false
       };
     case TYPES.GET_IMAGES_FAIL:

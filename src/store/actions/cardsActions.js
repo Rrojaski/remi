@@ -1,11 +1,12 @@
 import * as TYPES from "../types";
 import { showAnswer, showDefinition } from "./uiActions";
+import { getImage } from "./imageActions";
+
 export const getFirestoreCards = () => async (
   dispatch,
   getState,
   { getFirebase, getFirestore }
 ) => {
-
   const firestore = getFirestore();
   dispatch({ type: TYPES.GET_FIRESTORE_CARDS });
 
@@ -69,7 +70,6 @@ export const updateCurrentCard = () => async (
   getState,
   { getFirebase, getFirestore }
 ) => {
-
   dispatch({ type: TYPES.UPDATE_CURRENT_CARD });
   try {
     let firestoreCards = getState().cards.cards;
@@ -87,6 +87,8 @@ export const updateCurrentCard = () => async (
     }
 
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
+    dispatch(getImage());
+    
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
   }
