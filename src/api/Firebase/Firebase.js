@@ -3,7 +3,7 @@ import "firebase/firestore";
 import "firebase/auth";
 import "firebase/functions"; // <- needed if using httpsCallable
 import "firebase/storage";
-
+import { YellowBox } from 'react-native';
 const config = {
   apiKey: "AIzaSyCbqzCY7rAETC3kOiqYBYds5vsTD-3FAiw",
   authDomain: "remi-a7e48.firebaseapp.com",
@@ -15,6 +15,7 @@ const config = {
 };
 
 try {
+  YellowBox.ignoreWarnings(['Setting a timer']);
   console.log("about to initialize firebase");
 
   firebase.initializeApp(config);

@@ -101,7 +101,7 @@ const MyApp = props => {
           <TouchableOpacity onPress={() => searchImage(currentCard.definition)}>
             <Image
               style={styles.image}
-              source={currentImage ? { uri: currentImage } : blueRanger}
+              source={image ? { uri: image } : blueRanger}
             />
           </TouchableOpacity>
         </View>
