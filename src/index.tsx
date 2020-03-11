@@ -14,28 +14,21 @@ import {
   updateFirestoreCard,
   updateCurrentCard
 } from "./store/actions/cardsActions";
-import { getImage } from "./store/actions/imageActions";
 import { showAnswer, showDefinition } from "./store/actions/uiActions";
+import { updateCurrentImage } from "./store/actions/imageActions";
 import { connect } from "react-redux";
-import axios from "axios";
 import blueRanger from "./assets/images/blue_ranger.png";
 
 const MyApp = props => {
-  const baseApi = "http://api.giphy.com/v1/gifs";
-
-  const [currentImage, setCurrentImage] = useState("");
   const [screenHeight, setScreenHeight] = useState(300);
-  const [cardIndex, setCardIndex] = useState(0);
-  const [imageIndex, setImageIndex] = useState(0);
 
   const {
     getFirestoreCards,
     updateFirestoreCard,
     updateCurrentCard,
-    getImages,
+    updateCurrentImage,
     showAnswer,
     showDefinition,
-    cards,
     image,
     currentCard,
     isShowAnswer,
@@ -48,12 +41,6 @@ const MyApp = props => {
     setScreenHeight(height);
   }, []);
 
-  // useEffect(() => {
-  //   if (image && images.length > 0) {
-  //     setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
-  //   }
-  // }, [images]);
-
   // Get Firestore Images
   useEffect(() => {
     (async () => {
@@ -61,31 +48,6 @@ const MyApp = props => {
       updateCurrentCard();
     })();
   }, []);
-
-  // useEffect(() => {
-  //   if (cards[0]) {
-  //     let randomCard = cards[randomCardIndex()];
-  //     setCurrentCard(randomCard);
-  //     searchImage(randomCard.definition);
-  //   }
-  // }, [cards]);
-
-  const searchImage = async searchTerm => {
-    await getImage();
-
-    // setCurrentImage(images[randomImageIndex(images.length)].urls.raw);
-
-    // axios
-    //   .get(
-    //     `${baseApi}/search?api_key=2HF9SAG5DYsve05CWbAltaYI2CSUU9o1&q=${searchTerm}`
-    //   )
-    //   .then(response => {
-    //     let gif =
-    //       response.data.data[randomImageIndex(response.data.data.length)];
-    //     setCurrentImage(`https://media.giphy.com/media/${gif.id}/giphy.gif`);
-    //   })
-    //   .catch(error => console.log(error.message));
-  };
 
   return (
     <View style={{ height: screenHeight }}>
@@ -98,7 +60,7 @@ const MyApp = props => {
         }}
       >
         <View style={styles.container}>
-          <TouchableOpacity onPress={() => searchImage(currentCard.definition)}>
+          <TouchableOpacity onPress={() => updateCurrentImage()}>
             <Image
               style={styles.image}
               source={image ? { uri: image } : blueRanger}
@@ -236,7 +198,6 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = ({ cards, images, ui }) => ({
-  cards: cards.cards,
   currentCard: cards.currentCard,
   image: images.image,
   isShowAnswer: ui.isShowAnswer,
@@ -248,7 +209,8 @@ const mapDispatchToProps = {
   updateFirestoreCard,
   updateCurrentCard,
   showAnswer,
-  showDefinition
+  showDefinition,
+  updateCurrentImage
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyApp);
