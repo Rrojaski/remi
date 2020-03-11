@@ -1,6 +1,6 @@
 import * as TYPES from "../types";
 import { showAnswer, showDefinition } from "./uiActions";
-import { getImage } from "./imageActions";
+import { updateCurrentImage } from "./imageActions";
 
 export const getFirestoreCards = () => async (
   dispatch,
@@ -87,7 +87,7 @@ export const updateCurrentCard = () => async (
     }
 
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
-    dispatch(getImage());
+    dispatch(updateCurrentImage());
     
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
