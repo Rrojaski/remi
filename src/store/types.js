@@ -28,9 +28,9 @@ export const DELETE_CARD = "UPDATE_CARD";
 export const DELETE_CARD_SUCCESS = "UPDATE_CARD_SUCCESS";
 export const DELETE_CARD_FAIL = "UPDATE_CARD_FAIL";
 
-export const GET_IMAGES = "GET_IMAGES";
-export const GET_IMAGES_SUCCESS = "GET_IMAGES_SUCCESS";
-export const GET_IMAGES_FAIL = "GET_IMAGES_FAIL";
+export const GET_IMAGE = "GET_IMAGE";
+export const GET_IMAGE_SUCCESS = "GET_IMAGE_SUCCESS";
+export const GET_IMAGE_FAIL = "GET_IMAGE_FAIL";
 
 // UI
 

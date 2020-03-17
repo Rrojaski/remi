@@ -19,6 +19,10 @@ import { updateCurrentImage } from "./store/actions/imageActions";
 import { connect } from "react-redux";
 import blueRanger from "./assets/images/blue_ranger.png";
 
+import { createStackNavigator } from '@react-navigation/stack'
+const Stack = createStackNavigator();
+import Home from './screens/Home/Home'
+
 const MyApp = props => {
   const [screenHeight, setScreenHeight] = useState(300);
 
@@ -50,120 +54,123 @@ const MyApp = props => {
   }, []);
 
   return (
-    <View style={{ height: screenHeight }}>
-      <Header />
-      <View
-        style={{
-          height: screenHeight - 120,
-          display: "flex",
-          flexDirection: "column"
-        }}
-      >
-        <View style={styles.container}>
-          <TouchableOpacity onPress={() => updateCurrentImage()}>
-            <Image
-              style={styles.image}
-              source={image ? { uri: image } : blueRanger}
-            />
-          </TouchableOpacity>
-        </View>
-
-        {isShowAnswer ? (
-          <View>
-            <Text
-              style={{
-                alignSelf: "center",
-                fontSize: 40,
-                fontWeight: "bold"
-              }}
-            >
-              {currentCard && currentCard.character}
-            </Text>
-            <Text
-              style={{
-                alignSelf: "center",
-                fontSize: 30,
-                fontWeight: "bold"
-              }}
-            >
-              {currentCard && currentCard.pronunciation}
-            </Text>
-            <Text
-              style={{
-                alignSelf: "center",
-                fontSize: 30,
-                fontWeight: "bold"
-              }}
-            >
-              {currentCard && currentCard.definition}
-            </Text>
-          </View>
-        ) : (
-          <View
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center"
-            }}
-          >
-            <Text
-              style={{
-                alignSelf: "center",
-                fontSize: 30,
-                fontWeight: "bold",
-                marginBottom: "1%"
-              }}
-            >
-              {currentCard && currentCard.pronunciation}
-            </Text>
-
-            {isShowDefinition ? (
-              <View>
-                <Text
-                  style={{
-                    alignSelf: "center",
-                    fontSize: 30,
-                    fontWeight: "bold"
-                  }}
-                >
-                  {currentCard && currentCard.definition}
-                </Text>
-              </View>
-            ) : (
-              <View>
-                <Button
-                  title="Definition"
-                  onPress={() => showDefinition(true)}
-                />
-              </View>
-            )}
-          </View>
-        )}
-
-        {isShowAnswer ? (
-          <View style={styles.buttonContainer}>
-            <Button
-              color="red"
-              title="WRONG"
-              onPress={() => updateFirestoreCard("bad")}
-            />
-            <Button
-              title="MAYBE"
-              onPress={() => updateFirestoreCard("maybe")}
-            />
-            <Button
-              color="green"
-              title="GOOD"
-              onPress={() => updateFirestoreCard("good")}
-            />
-          </View>
-        ) : (
-          <View style={styles.buttonContainer}>
-            <Button title="SHOW ANSWER" onPress={() => showAnswer(true)} />
-          </View>
-        )}
-      </View>
-    </View>
+        <Stack.Navigator>
+            <Stack.Screen name="Home" component={Home} />
+        </Stack.Navigator>
+    // <View style={{ height: screenHeight }}>
+    //   <Header />
+    //   <View
+    //     style={{
+    //       height: screenHeight - 120,
+    //       display: "flex",
+    //       flexDirection: "column"
+    //     }}
+    //   >
+    //     <View style={styles.container}>
+    //       <TouchableOpacity onPress={() => updateCurrentImage()}>
+    //         <Image
+    //           style={styles.image}
+    //           source={image ? { uri: image } : blueRanger}
+    //         />
+    //       </TouchableOpacity>
+    //     </View>
+    //
+    //     {isShowAnswer ? (
+    //       <View>
+    //         <Text
+    //           style={{
+    //             alignSelf: "center",
+    //             fontSize: 40,
+    //             fontWeight: "bold"
+    //           }}
+    //         >
+    //           {currentCard && currentCard.character}
+    //         </Text>
+    //         <Text
+    //           style={{
+    //             alignSelf: "center",
+    //             fontSize: 30,
+    //             fontWeight: "bold"
+    //           }}
+    //         >
+    //           {currentCard && currentCard.pronunciation}
+    //         </Text>
+    //         <Text
+    //           style={{
+    //             alignSelf: "center",
+    //             fontSize: 30,
+    //             fontWeight: "bold"
+    //           }}
+    //         >
+    //           {currentCard && currentCard.definition}
+    //         </Text>
+    //       </View>
+    //     ) : (
+    //       <View
+    //         style={{
+    //           display: "flex",
+    //           flexDirection: "column",
+    //           alignItems: "center"
+    //         }}
+    //       >
+    //         <Text
+    //           style={{
+    //             alignSelf: "center",
+    //             fontSize: 30,
+    //             fontWeight: "bold",
+    //             marginBottom: "1%"
+    //           }}
+    //         >
+    //           {currentCard && currentCard.pronunciation}
+    //         </Text>
+    //
+    //         {isShowDefinition ? (
+    //           <View>
+    //             <Text
+    //               style={{
+    //                 alignSelf: "center",
+    //                 fontSize: 30,
+    //                 fontWeight: "bold"
+    //               }}
+    //             >
+    //               {currentCard && currentCard.definition}
+    //             </Text>
+    //           </View>
+    //         ) : (
+    //           <View>
+    //             <Button
+    //               title="Definition"
+    //               onPress={() => showDefinition(true)}
+    //             />
+    //           </View>
+    //         )}
+    //       </View>
+    //     )}
+    //
+    //     {isShowAnswer ? (
+    //       <View style={styles.buttonContainer}>
+    //         <Button
+    //           color="red"
+    //           title="WRONG"
+    //           onPress={() => updateFirestoreCard("bad")}
+    //         />
+    //         <Button
+    //           title="MAYBE"
+    //           onPress={() => updateFirestoreCard("maybe")}
+    //         />
+    //         <Button
+    //           color="green"
+    //           title="GOOD"
+    //           onPress={() => updateFirestoreCard("good")}
+    //         />
+    //       </View>
+    //     ) : (
+    //       <View style={styles.buttonContainer}>
+    //         <Button title="SHOW ANSWER" onPress={() => showAnswer(true)} />
+    //       </View>
+    //     )}
+    //   </View>
+    // </View>
   );
 };
 
