@@ -8,13 +8,38 @@ import {
     TouchableOpacity,
     Dimensions
 } from "react-native";
+import Panda from '../../assets/images/panda.png'
 
-const Home = () => {
+const Home = ( { navigation } ) => {
     return (
-        <View>
-            <Text>Home Screen</Text>
+        <View style={ styles.container }>
+            <Image style={styles.logoImage} source={Panda}/>
+            <Text style={styles.logoText}>Welcome To Remi</Text>
+            <Button
+                title="Study"
+                onPress={ () => navigation.navigate('Study') }
+            />
         </View>
     )
 };
+
+const styles = StyleSheet.create({
+    container: {
+        paddingTop: "5%",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column"
+    },
+    logoImage: {
+        resizeMode: 'contain',
+        maxHeight: '50%',
+
+    },
+    logoText: {
+        marginTop: 20,
+        marginBottom: 50,
+        fontSize: 30
+    }
+});
 
 export default Home

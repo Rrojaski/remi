@@ -4,6 +4,7 @@ ADDED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\sr
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-safe-area-context] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:@react-native-firebase_firestore] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:@react-native-firebase_app] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -326,6 +327,8 @@ uses-sdk
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-safe-area-context] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-firebase_firestore] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_firestore] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_app] C:\Users\roman.rojas\Documents\webapps\remi_clone\remi\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41

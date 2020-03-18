@@ -11,6 +11,7 @@
       <e p="node_modules\@babel\runtime" t="IncludeRecursive" />
       <e p="node_modules\@babel\types" t="IncludeRecursive" />
       <e p="node_modules\@bcoe\v8-coverage" t="IncludeRecursive" />
+      <e p="node_modules\@egjs\hammerjs" t="IncludeRecursive" />
       <e p="node_modules\@expo\vector-icons" t="IncludeRecursive" />
       <e p="node_modules\@firebase\analytics" t="IncludeRecursive" />
       <e p="node_modules\@firebase\app" t="IncludeRecursive" />
@@ -37,6 +38,16 @@
       <e p="node_modules\@jest\test-result" t="IncludeRecursive" />
       <e p="node_modules\@jest\test-sequencer" t="IncludeRecursive" />
       <e p="node_modules\@jest\types" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\aspromise" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\base64" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\codegen" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\eventemitter" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\fetch" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\float" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\inquire" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\path" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\pool" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\utf8" t="IncludeRecursive" />
       <e p="node_modules\@react-native-community\eslint-config" t="IncludeRecursive" />
       <e p="node_modules\@react-native-community\masked-view" t="IncludeRecursive" />
       <e p="node_modules\@react-native-firebase\app" t="IncludeRecursive" />
@@ -64,6 +75,7 @@
       <e p="node_modules\axios" t="IncludeRecursive" />
       <e p="node_modules\babel-jest" t="IncludeRecursive" />
       <e p="node_modules\babel-preset-expo" t="IncludeRecursive" />
+      <e p="node_modules\chalk" t="IncludeRecursive" />
       <e p="node_modules\collect-v8-coverage" t="IncludeRecursive" />
       <e p="node_modules\compare-versions" t="IncludeRecursive" />
       <e p="node_modules\csstype" t="IncludeRecursive" />
@@ -85,11 +97,12 @@
       <e p="node_modules\firebase" t="IncludeRecursive" />
       <e p="node_modules\firestore" t="IncludeRecursive" />
       <e p="node_modules\grpc" t="IncludeRecursive" />
+      <e p="node_modules\hammerjs" t="IncludeRecursive" />
+      <e p="node_modules\hoist-non-react-statics" t="IncludeRecursive" />
       <e p="node_modules\idb" t="IncludeRecursive" />
       <e p="node_modules\immer" t="IncludeRecursive" />
       <e p="node_modules\jest" t="IncludeRecursive" />
       <e p="node_modules\jest-changed-files" t="IncludeRecursive" />
-      <e p="node_modules\jest-cli" t="IncludeRecursive" />
       <e p="node_modules\jest-config" t="IncludeRecursive" />
       <e p="node_modules\jest-diff" t="IncludeRecursive" />
       <e p="node_modules\jest-each" t="IncludeRecursive" />
@@ -114,7 +127,7 @@
       <e p="node_modules\jetifier" t="IncludeRecursive" />
       <e p="node_modules\metro-react-native-babel-preset" t="IncludeRecursive" />
       <e p="node_modules\nullthrows" t="IncludeRecursive" />
-      <e p="node_modules\pretty-format" t="IncludeRecursive" />
+      <e p="node_modules\protobufjs" t="IncludeRecursive" />
       <e p="node_modules\react" t="IncludeRecursive" />
       <e p="node_modules\react-dom" t="IncludeRecursive" />
       <e p="node_modules\react-native" t="IncludeRecursive" />
