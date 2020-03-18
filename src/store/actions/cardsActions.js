@@ -16,7 +16,7 @@ export const getFirestoreCards = () => async (
       let id = card.id;
       return { ...card.data(), id };
     });
-    console.log("Firestore responsed with this many cards: ", cards.length);
+    console.log("Firestore responded with this many cards: ", cards.length);
 
     dispatch({ type: TYPES.GET_FIRESTORE_CARDS_SUCCESS, payload: cards });
   } catch (error) {
