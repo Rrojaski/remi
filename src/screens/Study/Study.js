@@ -150,7 +150,7 @@ const Study = props => {
                 <Button title="SHOW ANSWER" onPress={() => showAnswer(true)} />
                   <Button
                       title="Definition"
-                      onPress={() => showDefinition(true)}
+                      onPress={() => showDefinition(!isShowDefinition)}
                   />
               </View>
             )}
