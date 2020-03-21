@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 const Stack = createStackNavigator()
 import Home from './screens/Home/Home'
 import Study from './screens/Study/Study'
+import CardEdit from './screens/CardEdit/CardEdit'
 import {
     StyleSheet,
     Text,
@@ -14,7 +15,7 @@ import {
     TouchableOpacity
 } from "react-native"
 
-const App = () => {
+const App = ({navigation}) => {
     return (
         <Stack.Navigator>
             <Stack.Screen name="Home" component={ Home } options={ { title: "REMI" } }/>
@@ -22,12 +23,13 @@ const App = () => {
                 headerRight: () => (
                     <View style={{marginRight: 10}}>
                         <Button
-                            onPress={ () => alert( 'Edit Modal' ) }
+                            onPress={ () => navigation.navigate('Card Edit') }
                             title="Edit"
                         />
                     </View>
                 ),
             } }/>
+            <Stack.Screen name="Card Edit" component={ CardEdit }/>
         </Stack.Navigator>
     )
 }
