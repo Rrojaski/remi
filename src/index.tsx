@@ -7,8 +7,6 @@ import Home from './screens/Home/Home'
 import Study from './screens/Study/Study'
 import CardEdit from './screens/CardEdit/CardEdit'
 import {
-    StyleSheet,
-    Text,
     View,
     Button,
     Image,
