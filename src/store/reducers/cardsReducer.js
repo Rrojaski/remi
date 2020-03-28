@@ -26,17 +26,33 @@ const cardReducer = (state = initialState, action) => {
         error: action.payload,
         loading: false
       };
-    case TYPES.UPDATE_FIRESTORE_CARD:
+    case TYPES.UPDATE_FIRESTORE_CARD_GRADE:
       return {
         ...state,
         loading: true
       };
-    case TYPES.UPDATE_FIRESTORE_CARD_SUCCESS:
+    case TYPES.UPDATE_FIRESTORE_CARD_GRADE_SUCCESS:
       return {
         ...state,
         loading: false
       };
-    case TYPES.UPDATE_FIRESTORE_CARD_FAIL:
+    case TYPES.UPDATE_FIRESTORE_CARD_GRADE_FAIL:
+      return {
+        ...state,
+        error: action.payload,
+        loading: false
+      };
+    case TYPES.UPDATE_FIRESTORE_CARD_CONTENT:
+      return {
+        ...state,
+        loading: true
+      };
+    case TYPES.UPDATE_FIRESTORE_CARD_CONTENT_SUCCESS:
+      return {
+        ...state,
+        loading: false
+      };
+    case TYPES.UPDATE_FIRESTORE_CARD_CONTENT_FAIL:
       return {
         ...state,
         error: action.payload,

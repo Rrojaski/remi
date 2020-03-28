@@ -24,13 +24,13 @@ export const getFirestoreCards = () => async (
   }
 };
 
-export const updateFirestoreCard = condition => async (
+export const updateFirestoreCardGrade = condition => async (
   dispatch,
   getState,
   { getFirebase, getFirestore }
 ) => {
   const firestore = getFirestore();
-  dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD });
+  dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_GRADE });
 
   try {
     let currentCard = getState().cards.currentCard;
@@ -51,12 +51,43 @@ export const updateFirestoreCard = condition => async (
         pronunciation: currentCard.pronunciation
       });
 
-    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_SUCCESS });
+    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_GRADE_SUCCESS });
     dispatch(showAnswer(false));
     dispatch(showDefinition(false));
-    dispatch(updateCurrentCard());
+    dispatch(getFirestoreCards());
   } catch (error) {
-    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_FAIL, payload: error });
+    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_GRADE_FAIL, payload: error });
+  }
+};
+
+export const updateFirestoreCardContent = editedCard => async (
+  dispatch,
+  getState,
+  { getFirebase, getFirestore }
+) => {
+  const firestore = getFirestore();
+  dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_CONTENT });
+
+  try {
+    firestore
+      .collection("cards")
+      .doc(editedCard.id)
+      .set({
+        character: editedCard.character,
+        definition: editedCard.definition,
+        grade: 0,
+        pronunciation: editedCard.pronunciation
+      });
+
+    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_CONTENT_SUCCESS });
+    dispatch(showAnswer(false));
+    dispatch(showDefinition(false));
+    dispatch(getFirestoreCards());
+  } catch (error) {
+    dispatch({
+      type: TYPES.UPDATE_FIRESTORE_CARD_CONTENT_FAIL,
+      payload: error
+    });
   }
 };
 
@@ -88,7 +119,6 @@ export const updateCurrentCard = () => async (
 
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
     dispatch(updateCurrentImage());
-    
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
   }
