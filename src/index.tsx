@@ -13,11 +13,11 @@ import {
     TouchableOpacity
 } from "react-native"
 
-const App = ({navigation}) => {
+const App = () => {
     return (
         <Stack.Navigator>
             <Stack.Screen name="Home" component={ Home } options={ { title: "REMI" } }/>
-            <Stack.Screen name="Study" component={ Study } options={ {
+            <Stack.Screen name="Study" component={ Study } options={ ({navigation}) => ({
                 headerRight: () => (
                     <View style={{marginRight: 10}}>
                         <Button
@@ -26,7 +26,7 @@ const App = ({navigation}) => {
                         />
                     </View>
                 ),
-            } }/>
+            }) }/>
             <Stack.Screen name="Card Edit" component={ CardEdit }/>
         </Stack.Navigator>
     )

@@ -25,6 +25,7 @@ const Home = ( { navigation } ) => {
 
 const styles = StyleSheet.create({
     container: {
+        height: "100%",
         paddingTop: "5%",
         display: "flex",
         alignItems: "center",
