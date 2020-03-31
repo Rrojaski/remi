@@ -19,6 +19,7 @@ export const getFirestoreCards = () => async (
     console.log("Firestore responded with this many cards: ", cards.length);
 
     dispatch({ type: TYPES.GET_FIRESTORE_CARDS_SUCCESS, payload: cards });
+    dispatch(updateCurrentCard());
   } catch (error) {
     dispatch({ type: TYPES.GET_FIRESTORE_CARDS_FAIL, payload: error });
   }
@@ -54,7 +55,7 @@ export const updateFirestoreCardGrade = condition => async (
     dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_GRADE_SUCCESS });
     dispatch(showAnswer(false));
     dispatch(showDefinition(false));
-    dispatch(getFirestoreCards());
+    dispatch(updateCurrentCard());
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_GRADE_FAIL, payload: error });
   }
@@ -79,10 +80,12 @@ export const updateFirestoreCardContent = editedCard => async (
         pronunciation: editedCard.pronunciation
       });
 
-    dispatch({ type: TYPES.UPDATE_FIRESTORE_CARD_CONTENT_SUCCESS });
+    dispatch({
+      type: TYPES.UPDATE_FIRESTORE_CARD_CONTENT_SUCCESS,
+      payload: { ...editedCard, grade: 0 }
+    });
     dispatch(showAnswer(false));
     dispatch(showDefinition(false));
-    dispatch(getFirestoreCards());
   } catch (error) {
     dispatch({
       type: TYPES.UPDATE_FIRESTORE_CARD_CONTENT_FAIL,

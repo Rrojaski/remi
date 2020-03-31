@@ -50,6 +50,7 @@ const cardReducer = (state = initialState, action) => {
     case TYPES.UPDATE_FIRESTORE_CARD_CONTENT_SUCCESS:
       return {
         ...state,
+        currentCard: action.payload,
         loading: false
       };
     case TYPES.UPDATE_FIRESTORE_CARD_CONTENT_FAIL:

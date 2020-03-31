@@ -11,7 +11,6 @@ const imageReducer = (state = initialState, action) => {
     case TYPES.GET_IMAGE:
       return {
         ...state,
-        images: action.payload,
         loading: true
       };
     case TYPES.GET_IMAGE_SUCCESS:
