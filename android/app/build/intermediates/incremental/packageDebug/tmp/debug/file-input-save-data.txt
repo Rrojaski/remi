@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 28 05:54:39 EDT 2020
+#Tue Mar 31 05:31:59 EDT 2020
 56.path=lib/armeabi-v7a/libreactnativeblob.so
 5.base=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi_clone\\remi\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\roman.rojas\\Documents\\webapps\\remi_clone\\remi\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

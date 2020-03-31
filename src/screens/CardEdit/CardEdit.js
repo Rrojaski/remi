@@ -1,5 +1,7 @@
 ﻿import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, Button, TextInput } from "react-native";
+import { StyleSheet, Text, View, TextInput } from "react-native";
+import { Button } from "react-native-elements";
+import Icon from "react-native-vector-icons/FontAwesome";
 import { updateFirestoreCardContent } from "../../store/actions/cardsActions";
 import { connect } from "react-redux";
 
@@ -51,10 +53,14 @@ const CardEdit = props => {
         />
       </View>
       <View style={styles.buttonContainer}>
-        <Button title="CANCEL" onPress={() => navigation.goBack()} />
         <Button
-          color="green"
-          title="SAVE"
+          buttonStyle={styles.button}
+          icon={<Icon name="undo" size={30} color="#fff" />}
+          onPress={() => navigation.goBack()}
+        />
+        <Button
+          buttonStyle={styles.button}
+          icon={<Icon name="save" size={30} color="#fff" />}
           onPress={() => {
             updateFirestoreCardContent(editedCard);
           }}
@@ -66,6 +72,7 @@ const CardEdit = props => {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#121212",
     paddingTop: "5%",
     height: "100%",
     display: "flex",
@@ -80,12 +87,17 @@ const styles = StyleSheet.create({
     width: "90%"
   },
   label: {
+    color: "#fff",
     fontSize: 25,
     fontWeight: "bold"
   },
   textInput: {
+    color: "#fff",
     width: "50%",
     fontSize: 30
+  },
+  button: {
+    width: 60
   },
   buttonContainer: {
     position: "absolute",
