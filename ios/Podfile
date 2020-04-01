@@ -49,4 +49,6 @@ target 'REMI_PROJECT' do
 
   pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
 
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
 end

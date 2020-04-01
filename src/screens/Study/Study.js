@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { Button } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
@@ -9,9 +9,14 @@ import {
   updateFirestoreCardGrade,
   updateCurrentCard
 } from "../../store/actions/cardsActions";
-import { showAnswer, showDefinition } from "../../store/actions/uiActions";
+import {
+  showAnswer,
+  showDefinition,
+  updateVideoPaused
+} from "../../store/actions/uiActions";
 import { updateCurrentImage } from "../../store/actions/imageActions";
 import { connect } from "react-redux";
+import Video from "react-native-video";
 
 const Study = props => {
   const {
@@ -26,13 +31,21 @@ const Study = props => {
     loadingImage,
     currentCard,
     isShowAnswer,
-    isShowDefinition
+    forvoAudio,
+    videoPaused,
+    isShowDefinition,
+    updateVideoPaused
   } = props;
+  const audioPlayerRef = useRef(null);
 
   // Get Firestore Images
   useEffect(() => {
     getFirestoreCards();
   }, []);
+
+  const handleCardUpdate = grade => {
+    updateFirestoreCardGrade(grade);
+  };
 
   return loadingCard ? (
     <View
@@ -47,7 +60,19 @@ const Study = props => {
       <ActivityIndicator />
     </View>
   ) : (
-    <View style={{ height: "100%",   backgroundColor: "#121212" }}>
+    <View style={{ height: "100%", backgroundColor: "#121212" }}>
+      <Video
+        source={{
+          uri: forvoAudio
+        }}
+        ref={audioPlayerRef}
+        paused={videoPaused}
+        onEnd={() => {
+          audioPlayerRef.current.seek(0);
+          updateVideoPaused(true);
+        }}
+        style={styles.backgroundAudio}
+      />
       <View
         style={{
           height: "100%",
@@ -131,6 +156,7 @@ const Study = props => {
               <View>
                 <Text
                   style={{
+                    color: "#fff",
                     alignSelf: "center",
                     fontSize: 30,
                     fontWeight: "bold"
@@ -150,17 +176,17 @@ const Study = props => {
             <Button
               buttonStyle={styles.button}
               icon={<Icon name="thumbs-down" size={30} color="#fff" />}
-              onPress={() => updateFirestoreCardGrade("bad")}
+              onPress={() => handleCardUpdate("bad")}
             />
             <Button
               buttonStyle={styles.button}
               icon={<Icon name="reply" size={30} color="#fff" />}
-              onPress={() => updateFirestoreCardGrade("maybe")}
+              onPress={() => handleCardUpdate("maybe")}
             />
             <Button
               buttonStyle={styles.button}
               icon={<Icon name="thumbs-up" size={30} color="#fff" />}
-              onPress={() => updateFirestoreCardGrade("good")}
+              onPress={() => handleCardUpdate("good")}
             />
           </View>
         ) : (
@@ -173,7 +199,10 @@ const Study = props => {
             <Button
               buttonStyle={styles.button}
               icon={<Icon name="comment" size={30} color="#fff" />}
-              onPress={() => {}}
+              onPress={() => {
+                audioPlayerRef.current.seek(0);
+                updateVideoPaused(false);
+              }}
             />
             <Button
               buttonStyle={styles.button}
@@ -203,8 +232,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around"
   },
-  backgroundVideo: {
-    opacity: 0
+  backgroundAudio: {
+    opacity: 0,
+    position: "absolute"
   },
   button: { width: 60 }
 });
@@ -215,6 +245,8 @@ const mapStateToProps = ({ cards, images, ui }) => ({
   image: images.image,
   loadingImage: images.loading,
   isShowAnswer: ui.isShowAnswer,
+  forvoAudio: ui.forvoAudio,
+  videoPaused: ui.videoPaused,
   isShowDefinition: ui.isShowDefinition
 });
 
@@ -224,7 +256,8 @@ const mapDispatchToProps = {
   updateCurrentCard,
   showAnswer,
   showDefinition,
-  updateCurrentImage
+  updateCurrentImage,
+  updateVideoPaused
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Study);
