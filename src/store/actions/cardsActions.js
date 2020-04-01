@@ -1,6 +1,7 @@
 import * as TYPES from "../types";
 import { showAnswer, showDefinition } from "./uiActions";
 import { updateCurrentImage } from "./imageActions";
+import { getForvoAudio } from "./uiActions";
 
 export const getFirestoreCards = () => async (
   dispatch,
@@ -122,6 +123,7 @@ export const updateCurrentCard = () => async (
 
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
     dispatch(updateCurrentImage());
+    dispatch(getForvoAudio());
   } catch (error) {
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_FAIL, payload: error });
   }

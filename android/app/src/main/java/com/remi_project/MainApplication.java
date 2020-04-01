@@ -3,6 +3,7 @@ package com.remi_project;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.brentvatne.react.ReactVideoPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
@@ -43,6 +44,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactVideoPackage(),
             new SafeAreaContextPackage(),
             new ReactNativeFirebaseFirestorePackage(),
             new ReactNativeFirebaseAppPackage(),
