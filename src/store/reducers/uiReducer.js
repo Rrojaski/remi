@@ -6,6 +6,7 @@ const initialState = {
   isShowAnswer: false,
   isShowDefinition: false,
   forvoAudio: "",
+  forvoAudioArray: [],
   videoPaused: true
 };
 
@@ -54,8 +55,7 @@ const uiReducer = (state = initialState, action) => {
     case TYPES.GET_FORVO_AUDIO_SUCCESS:
       return {
         ...state,
-        forvoAudio: action.payload,
-        videoPaused: true,
+        forvoAudioArray: action.payload,
         loading: false
       };
     case TYPES.GET_FORVO_AUDIO_FAIL:
@@ -76,6 +76,24 @@ const uiReducer = (state = initialState, action) => {
         loading: false
       };
     case TYPES.UPDATE_VIDEO_PAUSED_FAIL:
+      return {
+        ...state,
+        error: action.payload,
+        loading: false
+      };
+    case TYPES.NEXT_FORVO_AUDIO:
+      return {
+        ...state,
+        loading: true
+      };
+    case TYPES.NEXT_FORVO_AUDIO_SUCCESS:
+      return {
+        ...state,
+        forvoAudio: action.payload,
+        videoPaused: true,
+        loading: false
+      };
+    case TYPES.NEXT_FORVO_AUDIO_FAIL:
       return {
         ...state,
         error: action.payload,

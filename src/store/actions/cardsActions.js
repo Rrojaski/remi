@@ -118,7 +118,7 @@ export const updateCurrentCard = () => async (
     if (currentCard) {
       do {
         nextCard = firestoreCards[randomCardIndex(firestoreCards.length)];
-      } while (nextCard.id === currentCard.id);
+      } while (nextCard.id === currentCard.id && irestoreCards.length > 1);
     }
 
     dispatch({ type: TYPES.UPDATE_CURRENT_CARD_SUCCESS, payload: nextCard });
