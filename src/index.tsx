@@ -19,9 +19,9 @@ const App = () => {
         options={{
           headerTintColor: "#fff",
           headerStyle: {
-            backgroundColor: "#1f1f1f"
+            backgroundColor: "#1f1f1f",
           },
-          title: "REMI"
+          title: "REMI",
         }}
       />
       <Stack.Screen
@@ -30,7 +30,7 @@ const App = () => {
         options={({ navigation }) => ({
           headerTintColor: "#fff",
           headerStyle: {
-            backgroundColor: "#1f1f1f"
+            backgroundColor: "#1f1f1f",
           },
           headerRight: () => (
             <View style={{ marginRight: 10 }}>
@@ -40,7 +40,7 @@ const App = () => {
                 onPress={() => navigation.navigate("Card Edit")}
               />
             </View>
-          )
+          ),
         })}
       />
       <Stack.Screen
@@ -48,8 +48,8 @@ const App = () => {
         options={{
           headerTintColor: "#fff",
           headerStyle: {
-            backgroundColor: "#1f1f1f"
-          }
+            backgroundColor: "#1f1f1f",
+          },
         }}
         component={CardEdit}
       />

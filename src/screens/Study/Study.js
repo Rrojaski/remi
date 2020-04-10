@@ -1,5 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  ToastAndroid
+} from "react-native";
 import { Button } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 import { ActivityIndicator } from "react-native";
@@ -12,11 +18,13 @@ import {
 import {
   showAnswer,
   showDefinition,
-  updateVideoPaused
+  updateVideoPaused,
+  nextForvoAudio
 } from "../../store/actions/uiActions";
 import { updateCurrentImage } from "../../store/actions/imageActions";
 import { connect } from "react-redux";
 import Video from "react-native-video";
+import Panda from "../../assets/images/panda.png";
 
 const Study = props => {
   const {
@@ -33,8 +41,12 @@ const Study = props => {
     isShowAnswer,
     forvoAudio,
     videoPaused,
+    uiError,
+    imageError,
+    cardsError,
     isShowDefinition,
-    updateVideoPaused
+    updateVideoPaused,
+    nextForvoAudio
   } = props;
   const audioPlayerRef = useRef(null);
 
@@ -43,8 +55,31 @@ const Study = props => {
     getFirestoreCards();
   }, []);
 
+  useEffect(() => {
+    if (uiError) {
+      ToastAndroid.show("UI Failed", ToastAndroid.LONG);
+      showToast(uiError);
+    }
+    if (imageError) {
+      ToastAndroid.show("Image Failed", ToastAndroid.LONG);
+      showToast(imageError);
+    }
+    if (cardsError) {
+      ToastAndroid.show("Cards Failed", ToastAndroid.LONG);
+      showToast(cardsError);
+    }
+    if (forvoAudio && audioPlayerRef) {
+      audioPlayerRef.current.seek(0);
+      updateVideoPaused(false);
+    }
+  }, [uiError, imageError, cardsError, forvoAudio]);
+
   const handleCardUpdate = grade => {
     updateFirestoreCardGrade(grade);
+  };
+
+  const showToast = errorMessage => {
+    ToastAndroid.show(errorMessage.toString(), ToastAndroid.LONG);
   };
 
   return loadingCard ? (
@@ -90,7 +125,7 @@ const Study = props => {
               <ActivityIndicator />
             ) : (
               <Image
-                source={{ uri: image }}
+                source={image ? { uri: image } : Panda}
                 style={styles.image}
                 placeholderStyle={{ backgroundColor: "transparent" }}
                 PlaceholderContent={<ActivityIndicator />}
@@ -180,6 +215,11 @@ const Study = props => {
             />
             <Button
               buttonStyle={styles.button}
+              icon={<Icon name="comment" size={30} color="#fff" />}
+              onPress={() => nextForvoAudio()}
+            />
+            <Button
+              buttonStyle={styles.button}
               icon={<Icon name="reply" size={30} color="#fff" />}
               onPress={() => handleCardUpdate("maybe")}
             />
@@ -199,10 +239,7 @@ const Study = props => {
             <Button
               buttonStyle={styles.button}
               icon={<Icon name="comment" size={30} color="#fff" />}
-              onPress={() => {
-                audioPlayerRef.current.seek(0);
-                updateVideoPaused(false);
-              }}
+              onPress={() => nextForvoAudio()}
             />
             <Button
               buttonStyle={styles.button}
@@ -242,11 +279,14 @@ const styles = StyleSheet.create({
 const mapStateToProps = ({ cards, images, ui }) => ({
   currentCard: cards.currentCard,
   loadingCard: cards.loading,
+  cardsError: cards.error,
   image: images.image,
   loadingImage: images.loading,
+  imageError: images.error,
   isShowAnswer: ui.isShowAnswer,
   forvoAudio: ui.forvoAudio,
   videoPaused: ui.videoPaused,
+  uiError: ui.error,
   isShowDefinition: ui.isShowDefinition
 });
 
@@ -257,7 +297,8 @@ const mapDispatchToProps = {
   showAnswer,
   showDefinition,
   updateCurrentImage,
-  updateVideoPaused
+  updateVideoPaused,
+  nextForvoAudio
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Study);

@@ -1,9 +1,10 @@
-import { AppRegistry, Platform } from 'react-native';
-import App from './App';
+import { AppRegistry, Platform } from "react-native";
+import App from "./App";
 
-AppRegistry.registerComponent('REMI_PROJECT', () => App);
+AppRegistry.registerComponent("REMI_PROJECT", () => App);
 
-if (Platform.OS === 'web') {
-  const rootTag = document.getElementById('root') || document.getElementById('main');
-  AppRegistry.runApplication('REMI_PROJECT', { rootTag });
+if (Platform.OS === "web") {
+  const rootTag =
+    document.getElementById("root") || document.getElementById("main");
+  AppRegistry.runApplication("REMI_PROJECT", { rootTag });
 }
