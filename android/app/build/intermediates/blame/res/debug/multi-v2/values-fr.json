@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\roman.rojas\\Documents\\webapps\\remi_clone\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "C:\\Source\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\9af4d5e806854407067c8665c66e6511\\res\\values-fr\\values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "2847,2955,3167,3299,3410,3640,3775,3926,4292,4529,4643,4859,4997,5216,5425,5528,5625",
                         "endColumns": "107,211,131,110,229,134,150,141,236,113,215,137,218,208,102,96,112",
                         "endOffsets": "2950,3162,3294,3405,3635,3770,3921,4063,4524,4638,4854,4992,5211,5420,5523,5620,5733"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\cfe603114b2e9e361a904b2a46c87f72\\res\\values-fr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "223",
-                        "endOffsets": "470"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4068",
-                        "endColumns": "223",
-                        "endOffsets": "4287"
                     }
                 },
                 {
@@ -69,6 +52,23 @@
                         "startOffsets": "5824",
                         "endColumns": "100",
                         "endOffsets": "5920"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\bf32cb678ec26c89fe5feaa4772604cf\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "223",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4068",
+                        "endColumns": "223",
+                        "endOffsets": "4287"
                     }
                 }
             ]

@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\roman.rojas\\Documents\\webapps\\remi_clone\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Source\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\cfe603114b2e9e361a904b2a46c87f72\\res\\values-sq\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "187",
-                        "endOffsets": "434"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4020",
-                        "endColumns": "187",
-                        "endOffsets": "4203"
-                    }
-                },
                 {
                     "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\621e2bbe00b1aee94051d6c219fc94f3\\res\\values-sq\\values-sq.xml",
                     "from": {
@@ -69,6 +52,23 @@
                         "startOffsets": "5719",
                         "endColumns": "100",
                         "endOffsets": "5815"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\bf32cb678ec26c89fe5feaa4772604cf\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4020",
+                        "endColumns": "187",
+                        "endOffsets": "4203"
                     }
                 }
             ]

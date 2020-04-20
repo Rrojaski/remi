@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\roman.rojas\\Documents\\webapps\\remi_clone\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
+            "outputFile": "C:\\Source\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\cfe603114b2e9e361a904b2a46c87f72\\res\\values-is\\values.xml",
+                    "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\bf32cb678ec26c89fe5feaa4772604cf\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

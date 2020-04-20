@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\roman.rojas\\Documents\\webapps\\remi_clone\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Source\\remi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\roman.rojas\\.gradle\\caches\\transforms-2\\files-2.1\\98bc8e08413ac7c688b5028d86ff8fd7\\res\\values-v23\\values-v23.xml",
