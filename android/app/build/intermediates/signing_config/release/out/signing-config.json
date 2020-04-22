@@ -1,1 +1,1 @@
-{"mName":"release","mStoreFile":"C:\\Source\\remi\\android\\app\\remi-upload-key.keystore","mStorePassword":"master6192","mKeyAlias":"remi-key-alias","mKeyPassword":"*master6192","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+{"mName":"externalOverride","mStoreFile":"C:\\Users\\roman.rojas\\my-upload-key.jks","mStorePassword":"master6192","mKeyAlias":"my-key-alias","mKeyPassword":"master6192","mStoreType":"jks","mV1SigningEnabled":false,"mV2SigningEnabled":false}
